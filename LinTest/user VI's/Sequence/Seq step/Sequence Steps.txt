@@ -1,0 +1,2 @@
+[All Stations]
+Step 0=Send LIN Message for inalfa SCU;Seq Dialog Send LIN Message for inalfa SCU.vi

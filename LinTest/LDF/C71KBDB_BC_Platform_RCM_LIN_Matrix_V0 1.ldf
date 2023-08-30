@@ -1,0 +1,871 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                        Mentor Graphics Corporation                         */
+/*                            All rights reserved                             */
+/*                                                                            */
+/* ************************************************************************** */
+/*                                                                            */
+/*  Description:   LIN Description file                                       */
+/*  System:        DMD                                                   */
+/*  Variant:       C40DB                                                      */
+/*  Cluster:       BCM_LIN1                                                   */
+/*  Master:        BCM_LIN1                                                   */
+/*  Generated at:  2020-03-24 12:39:03                                        */
+/*                                                                            */
+/* ************************************************************************** */
+/*                                                                            */
+/*                THIS CONFIGURATION MIGHT CONTAIN SOME ERRORS                */
+/*                 IF THE INPUT MODEL WAS NOT PROPERLY FORMED!                */
+/*                       Do Not Use this File directly!                       */
+/*                                                                            */
+/* ************************************************************************** */
+
+LIN_description_file;
+LIN_protocol_version = "2.1";
+LIN_language_version = "2.1";
+LIN_speed = 19.2 kbps;
+Channel_name = "BCM_LIN1";
+
+Nodes {
+  Master: BCM, 5 ms, 0.1 ms ;
+  Slaves: RCM, New_SlaveNode ;
+}
+
+Signals {
+  VIU_SSMEna: 1, 0, BCM, RCM ;
+  VDC_AmbTVld: 1, 1, BCM, RCM ;
+  XCP_SlaveResp_B0: 8, 0, RCM, BCM ;
+  XCP_SlaveResp_B1: 8, 0, RCM, BCM ;
+  XCP_SlaveResp_B2: 8, 0, RCM, BCM ;
+  XCP_SlaveResp_B3: 8, 0, RCM, BCM ;
+  XCP_SlaveResp_B4: 8, 0, RCM, BCM ;
+  XCP_SlaveResp_B5: 8, 0, RCM, BCM ;
+  XCP_SlaveResp_B6: 8, 0, RCM, BCM ;
+  XCP_SlaveResp_B7: 8, 0, RCM, BCM ;
+  XCP_MasterReq_B0: 8, 0, BCM, RCM ;
+  XCP_MasterReq_B1: 8, 0, BCM, RCM ;
+  XCP_MasterReq_B2: 8, 0, BCM, RCM ;
+  XCP_MasterReq_B3: 8, 0, BCM, RCM ;
+  XCP_MasterReq_B4: 8, 0, BCM, RCM ;
+  XCP_MasterReq_B5: 8, 0, BCM, RCM ;
+  XCP_MasterReq_B6: 8, 0, BCM, RCM ;
+  XCP_MasterReq_B7: 8, 0, BCM, RCM ;
+  SSM_R_Position: 3, 0, RCM, BCM ;
+  SSM_R_Normalized: 1, 0, RCM, BCM ;
+  SSM_R_TeachRun: 1, 0, RCM, BCM ;
+  SSM_R_LINStatus: 1, 0, RCM, BCM ;
+  SSM_R_PositionCount: 16, 30000, RCM, BCM ;
+  SSM_R_AntiPinch: 1, 0, RCM, BCM ;
+  SSM_R_ThermalProtection: 1, 0, RCM, BCM ;
+  SSM_R_POS_VIT: 8, 0, RCM, BCM ;
+  SSM_R_RelayStatus: 1, 0, RCM, BCM ;
+  Status_SMA: 3, 7, RCM ;
+  SystemSt_SMA: 1, 0, RCM ;
+  MotionSt_SMA: 1, 0, RCM ;
+  OperationSwitchSt_SMA: 3, 0, RCM ;
+  LINError_SMA: 1, 0, RCM ;
+  NormalizedStatus_SMA: 1, 0, RCM ;
+  AntiPinchStatus_SMA: 1, 0, RCM ;
+  MotorBlockingStatus_SMA: 1, 0, RCM ;
+  ThermalProtectionStatus_SMA: 1, 0, RCM ;
+  CurrentPosition_SMA: 7, 127, RCM ;
+  ErrorCode_SMA: 8, 0, RCM ;
+  WorkingStatus_SMA: 2, 3, RCM ;
+  VDC_AmbT: 8, 80, BCM, RCM ;
+  VIU_SSM_Ctrl: 8, 0, BCM, RCM ;
+  CommandStatus_SMA: 1, 0, RCM ;
+  VIU_VehSpdValid: 1, 0, BCM, RCM ;
+  VIU_VehSpd: 13, 8190, BCM, RCM ;
+  SSM_R_Movement: 3, 0, RCM, BCM ;
+  SSM_R_RespErr: 1, 0, RCM, BCM ;
+  SSM_R_Overvoltage: 1, 0, RCM, BCM ;
+  SSM_R_Undervoltage: 1, 0, RCM, BCM ;
+  SSM_R_SwitchStatus: 1, 0, RCM, BCM ;
+  SSM_R_ECUStatus: 1, 0, RCM, BCM ;
+  SSM_R_HallSensorStatus: 1, 0, RCM, BCM ;
+  SSM_R_SW_MajorVersA: 4, 1, RCM, BCM ;
+  SSM_R_SW_MinorVersA: 7, 1, RCM, BCM ;
+  SSM_R_HW_PhaVers: 2, 1, RCM, BCM ;
+  SSM_R_HW_MajorVersB: 4, 1, RCM, BCM ;
+  SSM_R_HW_MinorVersB: 4, 0, RCM, BCM ;
+  SSM_R_SN_MajorVersB: 2, 1, RCM, BCM ;
+  SSM_R_SN_MinorVersB: 4, 1, RCM, BCM ;
+  SSM_R_SN_SupplierCod: 2, 0, RCM, BCM ;
+}
+
+Diagnostic_signals {
+  MasterReqB0: 8, 0 ;
+  MasterReqB1: 8, 0 ;
+  MasterReqB2: 8, 0 ;
+  MasterReqB3: 8, 0 ;
+  MasterReqB4: 8, 0 ;
+  MasterReqB5: 8, 0 ;
+  MasterReqB6: 8, 0 ;
+  MasterReqB7: 8, 0 ;
+  SlaveRespB0: 8, 0 ;
+  SlaveRespB1: 8, 0 ;
+  SlaveRespB2: 8, 0 ;
+  SlaveRespB3: 8, 0 ;
+  SlaveRespB4: 8, 0 ;
+  SlaveRespB5: 8, 0 ;
+  SlaveRespB6: 8, 0 ;
+  SlaveRespB7: 8, 0 ;
+}
+
+
+
+Frames {
+  VIU_SSM: 17, BCM, 8 {
+    VIU_SSMEna, 4 ;
+    VDC_AmbTVld, 0 ;
+    VDC_AmbT, 16 ;
+    VIU_SSM_Ctrl, 40 ;
+  }
+  XCP_MasterReq: 58, BCM, 8 {
+    XCP_MasterReq_B0, 0 ;
+    XCP_MasterReq_B1, 8 ;
+    XCP_MasterReq_B2, 16 ;
+    XCP_MasterReq_B3, 24 ;
+    XCP_MasterReq_B4, 32 ;
+    XCP_MasterReq_B5, 40 ;
+    XCP_MasterReq_B6, 48 ;
+    XCP_MasterReq_B7, 56 ;
+  }
+  XCP_SlaveResp: 59, RCM, 8 {
+    XCP_SlaveResp_B0, 0 ;
+    XCP_SlaveResp_B1, 8 ;
+    XCP_SlaveResp_B2, 16 ;
+    XCP_SlaveResp_B3, 24 ;
+    XCP_SlaveResp_B4, 32 ;
+    XCP_SlaveResp_B5, 40 ;
+    XCP_SlaveResp_B6, 48 ;
+    XCP_SlaveResp_B7, 56 ;
+  }
+  SSM_R_state: 20, RCM, 8 {
+    SSM_R_Position, 8 ;
+    SSM_R_Normalized, 11 ;
+    SSM_R_TeachRun, 12 ;
+    SSM_R_LINStatus, 18 ;
+    SSM_R_PositionCount, 32 ;
+    SSM_R_AntiPinch, 13 ;
+    SSM_R_ThermalProtection, 14 ;
+    SSM_R_POS_VIT, 24 ;
+    SSM_R_RelayStatus, 21 ;
+    SSM_R_Movement, 3 ;
+    SSM_R_RespErr, 7 ;
+    SSM_R_Overvoltage, 15 ;
+    SSM_R_Undervoltage, 16 ;
+    SSM_R_SwitchStatus, 17 ;
+    SSM_R_ECUStatus, 19 ;
+    SSM_R_HallSensorStatus, 20 ;
+  }
+  VIU1_RSM: 5, BCM, 8 {
+    VIU_VehSpdValid, 29 ;
+    VIU_VehSpd, 16 ;
+  }
+  SSM_R_Version: 21, RCM, 8 {
+    SSM_R_SW_MajorVersA, 0 ;
+    SSM_R_SW_MinorVersA, 8 ;
+    SSM_R_HW_PhaVers, 16 ;
+    SSM_R_HW_MajorVersB, 24 ;
+    SSM_R_HW_MinorVersB, 28 ;
+    SSM_R_SN_MajorVersB, 32 ;
+    SSM_R_SN_MinorVersB, 34 ;
+    SSM_R_SN_SupplierCod, 38 ;
+  }
+}
+
+
+
+Diagnostic_frames {
+  MasterReq: 0x3c {
+    MasterReqB0, 0 ;
+    MasterReqB1, 8 ;
+    MasterReqB2, 16 ;
+    MasterReqB3, 24 ;
+    MasterReqB4, 32 ;
+    MasterReqB5, 40 ;
+    MasterReqB6, 48 ;
+    MasterReqB7, 56 ;
+  }
+  SlaveResp: 0x3d {
+    SlaveRespB0, 0 ;
+    SlaveRespB1, 8 ;
+    SlaveRespB2, 16 ;
+    SlaveRespB3, 24 ;
+    SlaveRespB4, 32 ;
+    SlaveRespB5, 40 ;
+    SlaveRespB6, 48 ;
+    SlaveRespB7, 56 ;
+  }
+}
+
+Node_attributes {
+  RCM{
+    LIN_protocol = "2.1" ;
+    configured_NAD = 0x42 ;
+    initial_NAD = 0x42 ;
+    product_id = 0x0, 0x0, 255 ;
+    P2_min = 50 ms ;
+    ST_min = 0 ms ;
+    N_As_timeout = 1000 ms ;
+    N_Cr_timeout = 1000 ms ;
+    configurable_frames {
+      VIU_SSM ;
+      XCP_SlaveResp ;
+      XCP_MasterReq ;
+      SSM_R_state ;
+      VIU1_RSM ;
+      SSM_R_Version ;
+    }
+  }
+  New_SlaveNode{
+    LIN_protocol = "2.1" ;
+    configured_NAD = 0xFF ;
+    initial_NAD = 0xFF ;
+    product_id = 0x0, 0x0, 255 ;
+    P2_min = 50 ms ;
+    ST_min = 0 ms ;
+    N_As_timeout = 1000 ms ;
+    N_Cr_timeout = 1000 ms ;
+  }
+}
+
+Schedule_tables {
+ LinDiagRequestSchedule {
+    MasterReq delay 10 ms ;
+  }
+ LinDiagResponseSchedule {
+    SlaveResp delay 10 ms ;
+  }
+ LinSchedule_Table {
+    SSM_R_Version delay 10 ms ;
+    VIU1_RSM delay 10 ms ;
+    VIU_SSM delay 10 ms ;
+    SSM_R_state delay 10 ms ;
+  }
+ LinDebug_Table {
+    XCP_MasterReq delay 15 ms ;
+    XCP_SlaveResp delay 15 ms ;
+  }
+ XCP_Daq_Table {
+    XCP_SlaveResp delay 15 ms ;
+  }
+}
+
+
+Signal_encoding_types {
+  AntiPinchStatus_SMA {
+    physical_value, 0, 0, 1, 0 ;
+    logical_value, 0, " Inactive" ;
+    logical_value, 1, "Active" ;
+  }
+  CommandStatus_SMA {
+    physical_value, 0, 1, 1, 0 ;
+    logical_value, 0, "Not Interrupted" ;
+    logical_value, 1, "Interrupted" ;
+  }
+  CurrentPosition_SMA {
+    physical_value, 0, 127, 1, 0, "%" ;
+  }
+  ErrorCode_SMA {
+    physical_value, 0, 255, 1, 0 ;
+  }
+  LINError_SMA {
+    physical_value, 0, 1, 1, 0 ;
+    logical_value, 0, "No error" ;
+    logical_value, 1, "Error" ;
+  }
+  MotionSt_SMA {
+    physical_value, 0, 1, 1, 0 ;
+    logical_value, 0, "Inactive" ;
+    logical_value, 1, "Active" ;
+  }
+  MotorBlockingStatus_SMA {
+    physical_value, 0, 1, 1, 0 ;
+    logical_value, 0, "Inactive" ;
+    logical_value, 1, "Active" ;
+  }
+  NormalizedStatus_SMA {
+    physical_value, 0, 1, 1, 0 ;
+    logical_value, 0, "Normalized" ;
+    logical_value, 1, "Not Normalized" ;
+  }
+  OperationSwitchSt_SMA {
+    physical_value, 0, 7, 1, 0 ;
+    logical_value, 0, "Inactive" ;
+    logical_value, 1, "Tilt Open " ;
+    logical_value, 2, "Tilt close" ;
+    logical_value, 3, "Parallel open" ;
+    logical_value, 4, "Parallel close" ;
+    logical_value, 5, "Reserved" ;
+    logical_value, 6, "Reserved" ;
+    logical_value, 7, "Error value" ;
+  }
+  SSM_R_AntiPinch {
+    physical_value, 0, 1, 1, 0 ;
+    logical_value, 0, " normal" ;
+    logical_value, 1, "Active" ;
+  }
+  SSM_R_ECUStatus {
+    physical_value, 0, 0, 1, 0 ;
+    logical_value, 0, "Normal " ;
+    logical_value, 1, "Fail" ;
+  }
+  SSM_R_HW_MajorVersB {
+    physical_value, 0, 15, 1, 0 ;
+  }
+  SSM_R_HW_MinorVersB {
+    physical_value, 0, 15, 1, 0 ;
+  }
+  SSM_R_HW_PhaVers {
+    physical_value, 0, 3, 1, 0 ;
+    logical_value, 0, "Reserved" ;
+    logical_value, 1, "A" ;
+    logical_value, 2, "B" ;
+    logical_value, 3, "C" ;
+  }
+  SSM_R_HallSensorStatus {
+    physical_value, 0, 1, 1, 0 ;
+    logical_value, 0, "Normal" ;
+    logical_value, 1, "Fail" ;
+  }
+  SSM_R_LINStatus {
+    physical_value, 0, 1, 1, 0 ;
+    logical_value, 0, "Normal " ;
+    logical_value, 1, "Fail" ;
+  }
+  SSM_R_Movement {
+    physical_value, 0, 7, 1, 0 ;
+    logical_value, 0, "stopped" ;
+    logical_value, 1, "opening slide" ;
+    logical_value, 2, "closing slide" ;
+    logical_value, 3, "reversing (AP/Stall)" ;
+    logical_value, 4, "moving uninitialized" ;
+  }
+  SSM_R_Normalized {
+    physical_value, 0, 1, 1, 0 ;
+    logical_value, 0, "De-initialized" ;
+    logical_value, 1, "initialized" ;
+  }
+  SSM_R_Overvoltage {
+    physical_value, 0, 1, 1, 0 ;
+    logical_value, 0, "normal " ;
+    logical_value, 1, "overvoltage" ;
+  }
+  SSM_R_POS_VIT {
+    physical_value, 0, 100, 1, 0, "%" ;
+  }
+  SSM_R_Position {
+    physical_value, 0, 7, 1, 0 ;
+    logical_value, 0, "Reserved" ;
+    logical_value, 1, "First half of slide" ;
+    logical_value, 2, "Second half of slide" ;
+    logical_value, 3, "Fully close" ;
+    logical_value, 4, "Half open" ;
+    logical_value, 5, "Reversed" ;
+    logical_value, 6, "Fully open" ;
+    logical_value, 7, "Uninitialized" ;
+  }
+  SSM_R_PositionCount {
+    physical_value, 0, 65535, 1, 0 ;
+    logical_value, 0, "Normalized" ;
+    logical_value, 1, "Not Normalized" ;
+  }
+  SSM_R_RelayStatus {
+    physical_value, 0, 1, 1, 0 ;
+    logical_value, 0, "Normal" ;
+    logical_value, 1, "Fail" ;
+  }
+  SSM_R_RespErr {
+    physical_value, 0, 1, 1, 0 ;
+    logical_value, 0, "No Error" ;
+    logical_value, 1, "Error" ;
+  }
+  SSM_R_SN_MajorVersB {
+    physical_value, 0, 3, 1, 0 ;
+    logical_value, 0, "RES" ;
+    logical_value, 1, "A" ;
+    logical_value, 2, "B" ;
+    logical_value, 3, "C" ;
+  }
+  SSM_R_SN_MinorVersB {
+    physical_value, 0, 15, 1, 0 ;
+  }
+  SSM_R_SN_SupplierCod {
+    physical_value, 0, 3, 1, 0 ;
+    logical_value, 0, "Supplier A" ;
+    logical_value, 1, "Supplier B" ;
+    logical_value, 2, "Supplier C" ;
+    logical_value, 3, "Supplier D" ;
+  }
+  SSM_R_SW_MajorVersA {
+    physical_value, 0, 15, 1, 0 ;
+  }
+  SSM_R_SW_MinorVersA {
+    physical_value, 0, 127, 1, 0 ;
+  }
+  SSM_R_SwitchStatus {
+    physical_value, 0, 1, 1, 0 ;
+    logical_value, 0, "Normal " ;
+    logical_value, 1, "Fail" ;
+  }
+  SSM_R_TeachRun {
+    physical_value, 0, 1, 1, 0 ;
+    logical_value, 0, "no teach run" ;
+    logical_value, 1, "teach run successful" ;
+  }
+  SSM_R_ThermalProtection {
+    physical_value, 0, 1, 1, 0 ;
+    logical_value, 0, " normal" ;
+    logical_value, 1, "Active" ;
+  }
+  SSM_R_Undervoltage {
+    physical_value, 0, 1, 1, 0 ;
+    logical_value, 0, "normal " ;
+    logical_value, 1, "undervoltage" ;
+  }
+  Status_SMA {
+    physical_value, 0, 7, 1, 0 ;
+    logical_value, 0, "Fully closed" ;
+    logical_value, 1, "Between fully closed and tilt open limit" ;
+    logical_value, 2, "Tilt Open limit" ;
+    logical_value, 4, "Parallel open limit" ;
+    logical_value, 5, "Parallel open half" ;
+    logical_value, 6, "Reserved" ;
+    logical_value, 7, "Invalid value" ;
+  }
+  SystemSt_SMA {
+    physical_value, 0, 1, 1, 0 ;
+    logical_value, 0, "Normal" ;
+    logical_value, 1, "Failure" ;
+  }
+  ThermalProtectionStatus_SMA {
+    physical_value, 0, 1, 1, 0 ;
+    logical_value, 0, "Inactive" ;
+    logical_value, 1, "Active" ;
+  }
+  VDC_AmbT {
+    physical_value, 0, 87, 0.5, -40, "Degc" ;
+  }
+  VDC_AmbTVld {
+    physical_value, 0, 1, 1, 0 ;
+    logical_value, 0, "invaild" ;
+    logical_value, 1, "vaild" ;
+  }
+  VIU_SSMEna {
+    physical_value, 0, 1, 1, 0 ;
+    logical_value, 0, "Disable" ;
+    logical_value, 1, "Enable" ;
+  }
+  VIU_SSM_Ctrl {
+    physical_value, 0, 255, 1, 0 ;
+    logical_value, 0, "No Request" ;
+    logical_value, 1, "Full Close" ;
+    logical_value, 101, "Full Open" ;
+    logical_value, 102, "STOP" ;
+    logical_value, 103, "Initialize" ;
+    logical_value, 104, "Manual Open Sunshad" ;
+    logical_value, 105, "Manual Close Sunshad" ;
+  }
+  VIU_VehSpd {
+    physical_value, 0, 270, 0.05625, 0, "km/h" ;
+  }
+  VIU_VehSpdValid {
+    physical_value, 0, 1, 1, 0 ;
+    logical_value, 0, "invaild" ;
+    logical_value, 1, "vaild" ;
+  }
+  WorkingStatus_SMA {
+    physical_value, 0, 3, 1, 0 ;
+    logical_value, 0, "Inactive" ;
+    logical_value, 1, "Opening" ;
+    logical_value, 2, "Closing" ;
+    logical_value, 3, "Invalid value" ;
+  }
+  BCM_WLM_Authorization {
+    physical_value, 0, 1, 1, 0 ;
+    logical_value, 0, "Unauthorization" ;
+    logical_value, 1, "Authorization" ;
+  }
+  BltLockSt1_BCM_LIN1 {
+    logical_value, 0, "BltLockSt1_Unlock" ;
+    logical_value, 1, "BltLockSt1_Lock" ;
+  }
+  Boolean_BCM_LIN1 {
+    logical_value, 0, "Boolean_FALSE" ;
+    logical_value, 1, "Boolean_TRUE" ;
+  }
+  BtnStsSngTyp_BCM_LIN1 {
+    logical_value, 0, "BtnStsSngTyp_Idle" ;
+    logical_value, 1, "BtnStsSngTyp_BtnPsd" ;
+  }
+  CptEquid_BCM_LIN1 {
+    logical_value, 0, "CptEquid_Equid" ;
+    logical_value, 1, "CptEquid_NotEquid" ;
+  }
+  DevErrSts2_BCM_LIN1 {
+    logical_value, 0, "DevErrSts2_NoFlt" ;
+    logical_value, 1, "DevErrSts2_Flt" ;
+  }
+  IdPen_BCM_LIN1 {
+    logical_value, 0, "IdPen_ProfUkwn" ;
+    logical_value, 1, "IdPen_Prof1" ;
+    logical_value, 2, "IdPen_Prof2" ;
+    logical_value, 3, "IdPen_Prof3" ;
+    logical_value, 4, "IdPen_Prof4" ;
+    logical_value, 5, "IdPen_Prof5" ;
+    logical_value, 6, "IdPen_Prof6" ;
+    logical_value, 7, "IdPen_Prof7" ;
+    logical_value, 8, "IdPen_Prof8" ;
+    logical_value, 9, "IdPen_Prof9" ;
+    logical_value, 10, "IdPen_Prof10" ;
+    logical_value, 11, "IdPen_Prof11" ;
+    logical_value, 12, "IdPen_Prof12" ;
+    logical_value, 13, "IdPen_Prof13" ;
+    logical_value, 14, "IdPen_Resd14" ;
+    logical_value, 15, "IdPen_ProfAll" ;
+  }
+  IntrLiGen2RoofReqTyp_BCM_LIN1 {
+    logical_value, 0, "Unknow" ;
+    logical_value, 1, "Welcome" ;
+    logical_value, 2, "Courtesy" ;
+    logical_value, 3, "Manual" ;
+    logical_value, 4, "Polite" ;
+    logical_value, 5, "ForceOn" ;
+    logical_value, 6, "ForceOff" ;
+  }
+  L_EEPROMErr {
+    physical_value, 0, 1, 1, 0 ;
+    logical_value, 0, "EEPROM Normal" ;
+    logical_value, 1, "EEPROM Abnormal" ;
+  }
+  L_GlassMotor_Overheat {
+    physical_value, 0, 1, 1, 0 ;
+    logical_value, 0, "Normal" ;
+    logical_value, 1, "Error" ;
+  }
+  L_GlassRelay_Dead {
+    physical_value, 0, 1, 1, 0 ;
+    logical_value, 0, "Normal" ;
+    logical_value, 1, "Error" ;
+  }
+  L_GlassRelay_Stuck {
+    physical_value, 0, 0, 1, 0 ;
+    logical_value, 0, "Normal" ;
+    logical_value, 1, "Error" ;
+  }
+  L_GlassSensor_Err {
+    physical_value, 0, 1, 1, 0 ;
+    logical_value, 0, "Normal" ;
+    logical_value, 1, "Error" ;
+  }
+  L_Glass_RF_Status {
+    physical_value, 0, 1, 1, 0 ;
+    logical_value, 0, "Valid" ;
+    logical_value, 1, "Invalid" ;
+  }
+  L_Glass_RP_Status {
+    physical_value, 0, 1, 1, 0 ;
+    logical_value, 0, "Valid" ;
+    logical_value, 1, "invalid" ;
+  }
+  L_Glass_Switch_Error {
+    physical_value, 0, 3, 1, 0 ;
+    logical_value, 0, "No Error" ;
+    logical_value, 1, "Switch 1 Error" ;
+    logical_value, 2, "Switch 2 Error" ;
+    logical_value, 3, "Reserved" ;
+  }
+  L_Hall_PowerErr {
+    physical_value, 0, 1, 1, 0 ;
+    logical_value, 0, "Normal" ;
+    logical_value, 1, "Failure" ;
+  }
+  L_InhibitActive {
+    physical_value, 0, 64, 1, 0 ;
+    logical_value, 1, "Low Voltage" ;
+    logical_value, 2, "High Voltage" ;
+    logical_value, 3, "Motor Overheat (basic motor)" ;
+    logical_value, 7, "Relay Fault (basic motor)" ;
+    logical_value, 8, "Motor Stall (basic motor) " ;
+    logical_value, 9, "Motor Overrun (basic motor) " ;
+    logical_value, 10, "No CAL file (basic motor) " ;
+    logical_value, 13, "Hall failure (basic motor) " ;
+    logical_value, 14, "MCU reset (basic motor) " ;
+  }
+  L_RCM_System_Error {
+    physical_value, 0, 1, 1, 0 ;
+    logical_value, 0, "Normal" ;
+    logical_value, 1, "Failure" ;
+  }
+  L_RESP_ERROR {
+    physical_value, 0, 1, 1, 0 ;
+    logical_value, 0, "No Error" ;
+    logical_value, 1, "Error" ;
+  }
+  L_RRF_Status {
+    physical_value, 0, 1, 1, 0 ;
+    logical_value, 0, "Valid" ;
+    logical_value, 1, "Invalid" ;
+  }
+  L_RRP_Status {
+    physical_value, 0, 1, 1, 0 ;
+    logical_value, 0, "Valid" ;
+    logical_value, 1, "Invalid" ;
+  }
+  L_Rollo_Position {
+    physical_value, 0, 7, 1, 0 ;
+    logical_value, 0, "Position unknown" ;
+    logical_value, 1, "Full close" ;
+    logical_value, 2, "MID position" ;
+    logical_value, 3, "Between MID and Full Open" ;
+    logical_value, 4, "Between MID and Full Close" ;
+    logical_value, 5, "Reserved" ;
+    logical_value, 6, "Reserved" ;
+    logical_value, 7, "Reserved" ;
+  }
+  L_SunRoof_Btn_Sts {
+    physical_value, 0, 15, 1, 0 ;
+    logical_value, 0, "Idle / Not pressed" ;
+    logical_value, 1, "Manual  open" ;
+    logical_value, 2, "Manual  close" ;
+    logical_value, 3, "Auto  open" ;
+    logical_value, 4, "Auto  close" ;
+    logical_value, 5, "Auto tilt open" ;
+    logical_value, 6, "Auto tilt close" ;
+  }
+  L_Sunroof_Position {
+    physical_value, 0, 15, 1, 0 ;
+    logical_value, 0, "Position unknwon/invalid" ;
+    logical_value, 1, "Completely closed" ;
+    logical_value, 2, "Reserved" ;
+    logical_value, 3, "Reserved" ;
+    logical_value, 4, "Reserved" ;
+    logical_value, 5, "Tilte 100%" ;
+    logical_value, 6, "Open 10%" ;
+    logical_value, 7, "Open 20%" ;
+    logical_value, 8, "Open 30%" ;
+    logical_value, 9, "Open 40%" ;
+    logical_value, 10, "Open 50%" ;
+    logical_value, 11, "Open 60%" ;
+    logical_value, 12, "Open 70%" ;
+    logical_value, 13, "Open 80%" ;
+    logical_value, 14, "Open 90%" ;
+    logical_value, 15, "Open 100%" ;
+  }
+  L_sunroof_status {
+    physical_value, 0, 1, 1, 0 ;
+    logical_value, 0, "Virgin" ;
+    logical_value, 1, "Learnt" ;
+  }
+  MotorBlockingStatus_SSM {
+    physical_value, 0, 1, 1, 0 ;
+    logical_value, 0, " Inactive" ;
+    logical_value, 1, "Active" ;
+  }
+  OnOff1_BCM_LIN1 {
+    logical_value, 0, "OnOff1_Off" ;
+    logical_value, 1, "OnOff1_On" ;
+  }
+  PassAirbLampReq_BCM_LIN1 {
+    logical_value, 0, "PassAirbLampReq_LampNotCfgd" ;
+    logical_value, 1, "PassAirbLampReq_LampOn" ;
+    logical_value, 2, "PassAirbLampReq_LampOff" ;
+    logical_value, 3, "PassAirbLampReq_Resd" ;
+  }
+  PassAirbLampSts1_BCM_LIN1 {
+    logical_value, 0, "PassAirbLampSts1_Resd1" ;
+    logical_value, 1, "PassAirbLampSts1_LampStsOk" ;
+    logical_value, 2, "PassAirbLampSts1_LampStsNotOk" ;
+    logical_value, 3, "PassAirbLampSts1_Resd2" ;
+  }
+  PowerMode {
+    physical_value, 0, 15, 1, 0 ;
+    logical_value, 0, "Off" ;
+    logical_value, 4, "IgnitionOn" ;
+    logical_value, 15, "Invalid value" ;
+  }
+  ReqForDisp_BCM_LIN1 {
+    logical_value, 0, "ReqForDisp_Idle" ;
+    logical_value, 1, "ReqForDisp_IndcnReqd" ;
+  }
+  SMACtrlCmd {
+    physical_value, 0, 7, 1, 0 ;
+    logical_value, 0, "Inactive" ;
+    logical_value, 1, "Close" ;
+    logical_value, 2, "Tilt Open" ;
+    logical_value, 3, "Parallel open" ;
+    logical_value, 4, "Stop" ;
+    logical_value, 5, "Open half" ;
+    logical_value, 6, "reserved" ;
+    logical_value, 7, "reserved" ;
+  }
+  SunRoofAndCurtBtnStsTyp2_BCM_LIN1 {
+    logical_value, 0, "SunRoofAndCurtBtnStsTyp2_Idle" ;
+    logical_value, 1, "SunRoofAndCurtBtnStsTyp2_BackwStep1" ;
+    logical_value, 2, "SunRoofAndCurtBtnStsTyp2_BackwStep2" ;
+    logical_value, 3, "SunRoofAndCurtBtnStsTyp2_ForwStep1" ;
+    logical_value, 4, "SunRoofAndCurtBtnStsTyp2_ForwStep2" ;
+    logical_value, 5, "SunRoofAndCurtBtnStsTyp2_TiltUpStep1" ;
+    logical_value, 6, "SunRoofAndCurtBtnStsTyp2_TiltDwnStep1" ;
+    logical_value, 7, "SunRoofAndCurtBtnStsTyp2_Failr" ;
+  }
+  SunRoofAndCurtEnaTyp_BCM_LIN1 {
+    logical_value, 0, "SunRoofAndCurtEnaTyp_Di" ;
+    logical_value, 1, "SunRoofAndCurtEnaTyp_LimdEna" ;
+    logical_value, 2, "SunRoofAndCurtEnaTyp_FullEna" ;
+    logical_value, 3, "SunRoofAndCurtEnaTyp_Resd" ;
+  }
+  SunRoofAndCurtExtCmd2_BCM_LIN1 {
+    logical_value, 0, "SunRoofAndCurtExtCmdTyp_Idle" ;
+    logical_value, 1, "SunRoofAndCurtExtCmdTyp_PanAndCurtStop" ;
+    logical_value, 2, "SunRoofAndCurtExtCmdTyp_CurtClsFull" ;
+    logical_value, 3, "SunRoofAndCurtExtCmdTyp_CurtOpenFull" ;
+    logical_value, 4, "SunRoofAndCurtExtCmdTyp_PanClsFull" ;
+    logical_value, 5, "SunRoofAndCurtExtCmdTyp_PanOpenFull" ;
+    logical_value, 6, "SunRoofAndCurtExtCmdTyp_PanTilt" ;
+    logical_value, 7, "SunRoofAndCurtExtCmdTyp_AutClsFast" ;
+    logical_value, 8, "SunRoofAndCurtExtCmdTyp_AutOpenFast" ;
+    logical_value, 9, "SunRoofAndCurtExtCmdTyp_CurtClsShort" ;
+    logical_value, 10, "SunRoofAndCurtExtCmdTyp_CurtOpnShort" ;
+    logical_value, 11, "SunRoofAndCurtExtCmdTyp_PanClsShort" ;
+    logical_value, 12, "SunRoofAndCurtExtCmdTyp_PanOpnShort" ;
+    logical_value, 13, "SunRoofAndCurtExtCmdTyp_CurtHalfOpn" ;
+    logical_value, 14, "SunRoofAndCurtExtCmdTyp_PanHalfOpn" ;
+    logical_value, 15, "SunRoofAndCurtExtCmdTyp_CurtAndPanInin" ;
+  }
+  SunRoofAndCurtImpctDetnStsTyp_BCM_LIN1 {
+    logical_value, 0, "SunRoofAndCurtImpctDetnStsTyp_ImpctDetnDi" ;
+    logical_value, 1, "SunRoofAndCurtImpctDetnStsTyp_ImpctDetnEna" ;
+    logical_value, 2, "SunRoofAndCurtImpctDetnStsTyp_ClsPinch" ;
+    logical_value, 3, "SunRoofAndCurtImpctDetnStsTyp_ClsBlk" ;
+    logical_value, 4, "SunRoofAndCurtImpctDetnStsTyp_OpenPinch" ;
+    logical_value, 5, "SunRoofAndCurtImpctDetnStsTyp_OpenBlk" ;
+  }
+  Trig1_BCM_LIN1 {
+    logical_value, 0, "Trig1_NoTrig" ;
+    logical_value, 1, "Trig1_Trig" ;
+  }
+  TwliBriSts1_BCM_LIN1 {
+    logical_value, 0, "TwliBriSts1_Night" ;
+    logical_value, 1, "TwliBriSts1_Day" ;
+  }
+  WinAndRoofAndCurtPosnTyp_BCM_LIN1 {
+    logical_value, 0, "WinAndRoofAndCurtPosnTyp_PosnUkwn" ;
+    logical_value, 1, "WinAndRoofAndCurtPosnTyp_ClsFull" ;
+    logical_value, 2, "WinAndRoofAndCurtPosnTyp_PercOpen4" ;
+    logical_value, 3, "WinAndRoofAndCurtPosnTyp_PercOpen8" ;
+    logical_value, 4, "WinAndRoofAndCurtPosnTyp_PercOpen12" ;
+    logical_value, 5, "WinAndRoofAndCurtPosnTyp_PercOpen16" ;
+    logical_value, 6, "WinAndRoofAndCurtPosnTyp_PercOpen20" ;
+    logical_value, 7, "WinAndRoofAndCurtPosnTyp_PercOpen24" ;
+    logical_value, 8, "WinAndRoofAndCurtPosnTyp_PercOpen28" ;
+    logical_value, 9, "WinAndRoofAndCurtPosnTyp_PercOpen32" ;
+    logical_value, 10, "WinAndRoofAndCurtPosnTyp_PercOpen36" ;
+    logical_value, 11, "WinAndRoofAndCurtPosnTyp_PercOpen40" ;
+    logical_value, 12, "WinAndRoofAndCurtPosnTyp_PercOpen44" ;
+    logical_value, 13, "WinAndRoofAndCurtPosnTyp_PercOpen48" ;
+    logical_value, 14, "WinAndRoofAndCurtPosnTyp_PercOpen52" ;
+    logical_value, 15, "WinAndRoofAndCurtPosnTyp_PercOpen56" ;
+    logical_value, 16, "WinAndRoofAndCurtPosnTyp_PercOpen60" ;
+    logical_value, 17, "WinAndRoofAndCurtPosnTyp_PercOpen64" ;
+    logical_value, 18, "WinAndRoofAndCurtPosnTyp_PercOpen68" ;
+    logical_value, 19, "WinAndRoofAndCurtPosnTyp_PercOpen72" ;
+    logical_value, 20, "WinAndRoofAndCurtPosnTyp_PercOpen76" ;
+    logical_value, 21, "WinAndRoofAndCurtPosnTyp_PercOpen80" ;
+    logical_value, 22, "WinAndRoofAndCurtPosnTyp_PercOpen84" ;
+    logical_value, 23, "WinAndRoofAndCurtPosnTyp_PercOpen88" ;
+    logical_value, 24, "WinAndRoofAndCurtPosnTyp_PercOpen92" ;
+    logical_value, 25, "WinAndRoofAndCurtPosnTyp_PercOpen96" ;
+    logical_value, 26, "WinAndRoofAndCurtPosnTyp_OpenFull" ;
+    logical_value, 27, "WinAndRoofAndCurtPosnTyp_Resd1" ;
+    logical_value, 28, "WinAndRoofAndCurtPosnTyp_Resd2" ;
+    logical_value, 29, "WinAndRoofAndCurtPosnTyp_Resd3" ;
+    logical_value, 30, "WinAndRoofAndCurtPosnTyp_Resd4" ;
+    logical_value, 31, "WinAndRoofAndCurtPosnTyp_Movg" ;
+  }
+  WorkingStatus_SSM {
+    physical_value, 0, 3, 1, 0 ;
+    logical_value, 0, " Inactive" ;
+    logical_value, 1, "Opening" ;
+    logical_value, 2, "Closing" ;
+    logical_value, 3, "Invalid value" ;
+  }
+  IntrBriSts1_BCM_LIN1 {
+    physical_value, 0, 15, 1, 0, "Unitless" ;
+  }
+  L_BatteryVolt {
+    physical_value, 0, 255, 0.1, 0, "V" ;
+  }
+  L_RolloRevNo {
+    physical_value, 0, 255, 1, 0 ;
+  }
+  L_SWVerion {
+    physical_value, 0, 0, 1, 0 ;
+  }
+  UInt2_BCM_LIN1 {
+    physical_value, 0, 3, 1, 0, "Unitless" ;
+  }
+  UInt4_BCM_LIN1 {
+    physical_value, 0, 15, 1, 0, "Unitless" ;
+  }
+  UInt7_BCM_LIN1 {
+    physical_value, 0, 127, 1, 0, "Unitless" ;
+  }
+  UInt8_BCM_LIN1 {
+    physical_value, 0, 255, 1, 0, "Unitless" ;
+  }
+  Uint12_BCM_LIN1 {
+    physical_value, 0, 4095, 1, 0, "Unitless" ;
+  }
+  Uint5_BCM_LIN1 {
+    physical_value, 0, 31, 1, 0, "Unitless" ;
+  }
+}
+
+Signal_representation {
+  AntiPinchStatus_SMA: AntiPinchStatus_SMA ;
+  CommandStatus_SMA: CommandStatus_SMA ;
+  CurrentPosition_SMA: CurrentPosition_SMA ;
+  ErrorCode_SMA: ErrorCode_SMA ;
+  LINError_SMA: LINError_SMA ;
+  MotionSt_SMA: MotionSt_SMA ;
+  MotorBlockingStatus_SMA: MotorBlockingStatus_SMA ;
+  NormalizedStatus_SMA: NormalizedStatus_SMA ;
+  OperationSwitchSt_SMA: OperationSwitchSt_SMA ;
+  SSM_R_AntiPinch: SSM_R_AntiPinch ;
+  SSM_R_ECUStatus: SSM_R_ECUStatus ;
+  SSM_R_HW_MajorVersB: SSM_R_HW_MajorVersB ;
+  SSM_R_HW_MinorVersB: SSM_R_HW_MinorVersB ;
+  SSM_R_HW_PhaVers: SSM_R_HW_PhaVers ;
+  SSM_R_HallSensorStatus: SSM_R_HallSensorStatus ;
+  SSM_R_LINStatus: SSM_R_LINStatus ;
+  SSM_R_Movement: SSM_R_Movement ;
+  SSM_R_Normalized: SSM_R_Normalized ;
+  SSM_R_Overvoltage: SSM_R_Overvoltage ;
+  SSM_R_POS_VIT: SSM_R_POS_VIT ;
+  SSM_R_Position: SSM_R_Position ;
+  SSM_R_PositionCount: SSM_R_PositionCount ;
+  SSM_R_RelayStatus: SSM_R_RelayStatus ;
+  SSM_R_RespErr: SSM_R_RespErr ;
+  SSM_R_SN_MajorVersB: SSM_R_SN_MajorVersB ;
+  SSM_R_SN_MinorVersB: SSM_R_SN_MinorVersB ;
+  SSM_R_SN_SupplierCod: SSM_R_SN_SupplierCod ;
+  SSM_R_SW_MajorVersA: SSM_R_SW_MajorVersA ;
+  SSM_R_SW_MinorVersA: SSM_R_SW_MinorVersA ;
+  SSM_R_SwitchStatus: SSM_R_SwitchStatus ;
+  SSM_R_TeachRun: SSM_R_TeachRun ;
+  SSM_R_ThermalProtection: SSM_R_ThermalProtection ;
+  SSM_R_Undervoltage: SSM_R_Undervoltage ;
+  Status_SMA: Status_SMA ;
+  SystemSt_SMA: SystemSt_SMA ;
+  ThermalProtectionStatus_SMA: ThermalProtectionStatus_SMA ;
+  VDC_AmbT: VDC_AmbT ;
+  VDC_AmbTVld: VDC_AmbTVld ;
+  VIU_SSMEna: VIU_SSMEna ;
+  VIU_SSM_Ctrl: VIU_SSM_Ctrl ;
+  VIU_VehSpd: VIU_VehSpd ;
+  VIU_VehSpdValid: VIU_VehSpdValid ;
+  WorkingStatus_SMA: WorkingStatus_SMA ;
+}
