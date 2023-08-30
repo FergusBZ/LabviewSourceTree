@@ -1,0 +1,4 @@
+2021/5/7 12:27:36,【! 报警】,Outline_Station:SN-上线表数据不存在！,Ture,0,Outline_Station.vi:\NI_Database_API.lvlib:ADO Type and Dir to DB Tools.vi->NI_Database_API.lvlib:Rec Get Column Properties (R).vi->NI_Database_API.lvlib:DB Tools List Columns.vi->DB select data(index).vi->Outline_Station.vi->Call Steps.vi->Main Panel.vi<ERR>ADO Error: 0x000001F4
+Invalid type.  This data type is not directly supported by the database toolset and will be considered a String.
+2021/5/7 12:30:23,【! 报警】,Outline_Station:SN-上线表数据不存在！,Ture,0,Outline_Station.vi:\NI_Database_API.lvlib:ADO Type and Dir to DB Tools.vi->NI_Database_API.lvlib:Rec Get Column Properties (R).vi->NI_Database_API.lvlib:DB Tools List Columns.vi->DB select data(index).vi->Outline_Station.vi->Call Steps.vi->Main Panel.vi<ERR>ADO Error: 0x000001F4
+Invalid type.  This data type is not directly supported by the database toolset and will be considered a String.

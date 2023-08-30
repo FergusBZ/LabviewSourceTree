@@ -1,0 +1,3 @@
+2020/7/21 9:51:34,【! 报警】,,Ture,0,Query FTT Data.vi:\
+2020/7/21 10:00:14,【! 报警】,,Ture,0,Outline_Station.vi:\Acquire Semaphore.vi:3480004->Read Sigle Bool.vi:5320002->Outline_Station.vi->Call Steps.vi->Main Panel.vi中的元素出队列
+2020/7/21 11:00:30,【! 报警】,,Ture,0,Outline_Station.vi:\Acquire Semaphore.vi:3480002->Read Sigle Bool.vi:5320002->Outline_Station.vi->Call Steps.vi->Main Panel.vi中的元素出队列

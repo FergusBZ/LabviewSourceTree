@@ -1,0 +1,77 @@
+7/8/2020 12:16:31 AM,【! 报警】,Outline_Station:SN-00107082020上线表数据不存在！,Ture,0,Outline_Station.vi:\NI_Database_API.lvlib:ADO Type and Dir to DB Tools.vi->NI_Database_API.lvlib:Rec Get Column Properties (R).vi->NI_Database_API.lvlib:DB Tools List Columns.vi->DB select data(index).vi->Outline_Station.vi->Call Steps.vi->Main Panel.vi<ERR>ADO Error: 0x000001F4
+Invalid type.  This data type is not directly supported by the database toolset and will be considered a String.
+7/8/2020 12:23:26 AM,【! 报警】,,Ture,0,Station_NG Station.vi:\NI_Database_API.lvlib:Conn Execute.vi->DB Select Data(count).vi->DB Delect data(index).vi->Station_NG Station.vi->Call Steps.vi->Main Panel.vi<ERR>ADO Error: 0x80040E14
+NI_Database_API.lvlib:Conn Execute.vi->DB Select Data(count).vi->DB Delect data(index).vi->Station_NG Station.vi->Call Steps.vi->Main Panel.vi中的Exception occured in Microsoft OLE DB Provider for ODBC Drivers: [Microsoft][ODBC SQL Server Driver][SQL Server]“Station”附近有语法错误。
+7/8/2020 12:42:34 AM,【! 报警】,上线SN:02607082020--->Frame:,Ture,0,Online_Station.vi:\框架号为空！
+7/8/2020 12:42:55 AM,【! 报警】,,Ture,0,Station_NG Station.vi:\NI_Database_API.lvlib:Conn Execute.vi->DB Select Data(count).vi->DB Delect data(index).vi->Station_NG Station.vi->Call Steps.vi->Main Panel.vi<ERR>ADO Error: 0x80040E14
+NI_Database_API.lvlib:Conn Execute.vi->DB Select Data(count).vi->DB Delect data(index).vi->Station_NG Station.vi->Call Steps.vi->Main Panel.vi中的Exception occured in Microsoft OLE DB Provider for ODBC Drivers: [Microsoft][ODBC SQL Server Driver][SQL Server]“Station”附近有语法错误。
+7/8/2020 5:01:45 AM,【! 报警】,,Ture,0,Station_NG Station.vi:\NI_Database_API.lvlib:Conn Execute.vi->DB Select Data(count).vi->DB Delect data(index).vi->Station_NG Station.vi->Call Steps.vi->Main Panel.vi<ERR>ADO Error: 0x80040E14
+NI_Database_API.lvlib:Conn Execute.vi->DB Select Data(count).vi->DB Delect data(index).vi->Station_NG Station.vi->Call Steps.vi->Main Panel.vi中的Exception occured in Microsoft OLE DB Provider for ODBC Drivers: [Microsoft][ODBC SQL Server Driver][SQL Server]“Station”附近有语法错误。
+7/8/2020 6:50:40 AM,【! 报警】,,Ture,0,Station_NG Station.vi:\NI_Database_API.lvlib:Conn Execute.vi->DB Select Data(count).vi->DB Delect data(index).vi->Station_NG Station.vi->Call Steps.vi->Main Panel.vi<ERR>ADO Error: 0x80040E14
+NI_Database_API.lvlib:Conn Execute.vi->DB Select Data(count).vi->DB Delect data(index).vi->Station_NG Station.vi->Call Steps.vi->Main Panel.vi中的Exception occured in Microsoft OLE DB Provider for ODBC Drivers: [Microsoft][ODBC SQL Server Driver][SQL Server]“Station”附近有语法错误。
+7/8/2020 9:22:09 AM,【! 报警】,Outline_Station:SN-26807082020上线表数据不存在！,Ture,0,Outline_Station.vi:\NI_Database_API.lvlib:ADO Type and Dir to DB Tools.vi->NI_Database_API.lvlib:Rec Get Column Properties (R).vi->NI_Database_API.lvlib:DB Tools List Columns.vi->DB select data(index).vi->Outline_Station.vi->Call Steps.vi->Main Panel.vi<ERR>ADO Error: 0x000001F4
+Invalid type.  This data type is not directly supported by the database toolset and will be considered a String.
+7/8/2020 9:23:48 AM,【! 报警】,Outline_Station:SN-26907082020上线表数据不存在！,Ture,0,Outline_Station.vi:\NI_Database_API.lvlib:ADO Type and Dir to DB Tools.vi->NI_Database_API.lvlib:Rec Get Column Properties (R).vi->NI_Database_API.lvlib:DB Tools List Columns.vi->DB select data(index).vi->Outline_Station.vi->Call Steps.vi->Main Panel.vi<ERR>ADO Error: 0x000001F4
+Invalid type.  This data type is not directly supported by the database toolset and will be considered a String.
+7/8/2020 9:25:08 AM,【! 报警】,,Ture,0,Station_NG Station.vi:\Main Panel.vi->Call Steps.vi->Database Variant To Data 
+7/8/2020 9:25:26 AM,【! 报警】,Outline_Station:SN-27007082020上线表数据不存在！,Ture,0,Outline_Station.vi:\NI_Database_API.lvlib:ADO Type and Dir to DB Tools.vi->NI_Database_API.lvlib:Rec Get Column Properties (R).vi->NI_Database_API.lvlib:DB Tools List Columns.vi->DB select data(index).vi->Outline_Station.vi->Call Steps.vi->Main Panel.vi<ERR>ADO Error: 0x000001F4
+Invalid type.  This data type is not directly supported by the database toolset and will be considered a String.
+7/8/2020 9:27:22 AM,【! 报警】,Outline_Station:SN-27107082020上线表数据不存在！,Ture,0,Outline_Station.vi:\NI_Database_API.lvlib:ADO Type and Dir to DB Tools.vi->NI_Database_API.lvlib:Rec Get Column Properties (R).vi->NI_Database_API.lvlib:DB Tools List Columns.vi->DB select data(index).vi->Outline_Station.vi->Call Steps.vi->Main Panel.vi<ERR>ADO Error: 0x000001F4
+Invalid type.  This data type is not directly supported by the database toolset and will be considered a String.
+7/8/2020 9:29:08 AM,【! 报警】,Outline_Station:SN-27207082020上线表数据不存在！,Ture,0,Outline_Station.vi:\NI_Database_API.lvlib:ADO Type and Dir to DB Tools.vi->NI_Database_API.lvlib:Rec Get Column Properties (R).vi->NI_Database_API.lvlib:DB Tools List Columns.vi->DB select data(index).vi->Outline_Station.vi->Call Steps.vi->Main Panel.vi<ERR>ADO Error: 0x000001F4
+Invalid type.  This data type is not directly supported by the database toolset and will be considered a String.
+7/8/2020 9:31:00 AM,【! 报警】,Outline_Station:SN-27307082020上线表数据不存在！,Ture,0,Outline_Station.vi:\NI_Database_API.lvlib:ADO Type and Dir to DB Tools.vi->NI_Database_API.lvlib:Rec Get Column Properties (R).vi->NI_Database_API.lvlib:DB Tools List Columns.vi->DB select data(index).vi->Outline_Station.vi->Call Steps.vi->Main Panel.vi<ERR>ADO Error: 0x000001F4
+Invalid type.  This data type is not directly supported by the database toolset and will be considered a String.
+7/8/2020 9:33:11 AM,【! 报警】,Outline_Station:SN-27407082020上线表数据不存在！,Ture,0,Outline_Station.vi:\NI_Database_API.lvlib:ADO Type and Dir to DB Tools.vi->NI_Database_API.lvlib:Rec Get Column Properties (R).vi->NI_Database_API.lvlib:DB Tools List Columns.vi->DB select data(index).vi->Outline_Station.vi->Call Steps.vi->Main Panel.vi<ERR>ADO Error: 0x000001F4
+Invalid type.  This data type is not directly supported by the database toolset and will be considered a String.
+7/8/2020 9:34:50 AM,【! 报警】,Outline_Station:SN-27507082020上线表数据不存在！,Ture,0,Outline_Station.vi:\NI_Database_API.lvlib:ADO Type and Dir to DB Tools.vi->NI_Database_API.lvlib:Rec Get Column Properties (R).vi->NI_Database_API.lvlib:DB Tools List Columns.vi->DB select data(index).vi->Outline_Station.vi->Call Steps.vi->Main Panel.vi<ERR>ADO Error: 0x000001F4
+Invalid type.  This data type is not directly supported by the database toolset and will be considered a String.
+7/8/2020 9:36:35 AM,【! 报警】,Outline_Station:SN-27607082020上线表数据不存在！,Ture,0,Outline_Station.vi:\NI_Database_API.lvlib:ADO Type and Dir to DB Tools.vi->NI_Database_API.lvlib:Rec Get Column Properties (R).vi->NI_Database_API.lvlib:DB Tools List Columns.vi->DB select data(index).vi->Outline_Station.vi->Call Steps.vi->Main Panel.vi<ERR>ADO Error: 0x000001F4
+Invalid type.  This data type is not directly supported by the database toolset and will be considered a String.
+7/8/2020 9:38:37 AM,【! 报警】,Outline_Station:SN-27707082020上线表数据不存在！,Ture,0,Outline_Station.vi:\NI_Database_API.lvlib:ADO Type and Dir to DB Tools.vi->NI_Database_API.lvlib:Rec Get Column Properties (R).vi->NI_Database_API.lvlib:DB Tools List Columns.vi->DB select data(index).vi->Outline_Station.vi->Call Steps.vi->Main Panel.vi<ERR>ADO Error: 0x000001F4
+Invalid type.  This data type is not directly supported by the database toolset and will be considered a String.
+7/8/2020 10:56:27 AM,【! 报警】,,Ture,0,Outline_Station.vi:\Acquire Semaphore.vi:3480003->Read Sigle Bool.vi:5320002->Outline_Station.vi->Call Steps.vi->Main Panel.vi中的元素出队列
+7/8/2020 10:57:00 AM,【! 报警】,:下线站修改上线表状态异常！,Ture,0,Outline_Station.vi:\NI_Database_API.lvlib:ADO Type and Dir to DB Tools.vi->NI_Database_API.lvlib:Rec Get Column Properties (R).vi->NI_Database_API.lvlib:DB Tools List Columns.vi->DB select data(index).vi->Outline_Station.vi->Call Steps.vi->Main Panel.vi<ERR>ADO Error: 0x000001F4
+Invalid type.  This data type is not directly supported by the database toolset and will be considered a String.
+7/8/2020 10:57:01 AM,【! 报警】,:天窗下线完成!,Ture,0,Outline_Station.vi:\
+7/8/2020 10:57:12 AM,【! 报警】,:下线站修改上线表状态异常！,Ture,0,Outline_Station.vi:\NI_Database_API.lvlib:ADO Type and Dir to DB Tools.vi->NI_Database_API.lvlib:Rec Get Column Properties (R).vi->NI_Database_API.lvlib:DB Tools List Columns.vi->DB select data(index).vi->Outline_Station.vi->Call Steps.vi->Main Panel.vi<ERR>ADO Error: 0x000001F4
+Invalid type.  This data type is not directly supported by the database toolset and will be considered a String.
+7/8/2020 10:57:12 AM,【! 报警】,:天窗下线完成!,Ture,0,Outline_Station.vi:\
+7/8/2020 10:57:20 AM,【! 报警】,:下线站修改上线表状态异常！,Ture,0,Outline_Station.vi:\NI_Database_API.lvlib:ADO Type and Dir to DB Tools.vi->NI_Database_API.lvlib:Rec Get Column Properties (R).vi->NI_Database_API.lvlib:DB Tools List Columns.vi->DB select data(index).vi->Outline_Station.vi->Call Steps.vi->Main Panel.vi<ERR>ADO Error: 0x000001F4
+Invalid type.  This data type is not directly supported by the database toolset and will be considered a String.
+7/8/2020 10:57:20 AM,【! 报警】,:天窗下线完成!,Ture,0,Outline_Station.vi:\
+7/8/2020 10:58:16 AM,【! 报警】,:下线站修改上线表状态异常！,Ture,0,Outline_Station.vi:\NI_Database_API.lvlib:ADO Type and Dir to DB Tools.vi->NI_Database_API.lvlib:Rec Get Column Properties (R).vi->NI_Database_API.lvlib:DB Tools List Columns.vi->DB select data(index).vi->Outline_Station.vi->Call Steps.vi->Main Panel.vi<ERR>ADO Error: 0x000001F4
+Invalid type.  This data type is not directly supported by the database toolset and will be considered a String.
+7/8/2020 10:58:17 AM,【! 报警】,:天窗下线完成!,Ture,0,Outline_Station.vi:\
+7/8/2020 10:59:22 AM,【! 报警】,,Ture,0,Outline_Station.vi:\Acquire Semaphore.vi:3480003->Read Sigle Bool.vi:5320002->Outline_Station.vi->Call Steps.vi->Main Panel.vi中的元素出队列
+7/8/2020 11:01:30 AM,【! 报警】,,Ture,0,Query FTT Data.vi:\
+7/8/2020 4:29:22 PM,【! 报警】,Outline_Station:SN-P71ALWB55009902202007071413129上线表数据不存在！,Ture,0,Outline_Station.vi:\NI_Database_API.lvlib:ADO Type and Dir to DB Tools.vi->NI_Database_API.lvlib:Rec Get Column Properties (R).vi->NI_Database_API.lvlib:DB Tools List Columns.vi->DB select data(index).vi->Outline_Station.vi->Call Steps.vi->Main Panel.vi<ERR>ADO Error: 0x000001F4
+Invalid type.  This data type is not directly supported by the database toolset and will be considered a String.
+7/8/2020 4:30:09 PM,【! 报警】,Outline_Station:SN-P71ALWB55009902202007071413129上线表数据不存在！,Ture,0,Outline_Station.vi:\NI_Database_API.lvlib:ADO Type and Dir to DB Tools.vi->NI_Database_API.lvlib:Rec Get Column Properties (R).vi->NI_Database_API.lvlib:DB Tools List Columns.vi->DB select data(index).vi->Outline_Station.vi->Call Steps.vi->Main Panel.vi<ERR>ADO Error: 0x000001F4
+Invalid type.  This data type is not directly supported by the database toolset and will be considered a String.
+7/8/2020 4:31:27 PM,【! 报警】,Outline_Station:SN-P71ALWB55009902202007071417131上线表数据不存在！,Ture,0,Outline_Station.vi:\NI_Database_API.lvlib:ADO Type and Dir to DB Tools.vi->NI_Database_API.lvlib:Rec Get Column Properties (R).vi->NI_Database_API.lvlib:DB Tools List Columns.vi->DB select data(index).vi->Outline_Station.vi->Call Steps.vi->Main Panel.vi<ERR>ADO Error: 0x000001F4
+Invalid type.  This data type is not directly supported by the database toolset and will be considered a String.
+7/8/2020 4:31:34 PM,【! 报警】,Outline_Station:SN-P71ALWB55009902202007071417131上线表数据不存在！,Ture,0,Outline_Station.vi:\NI_Database_API.lvlib:ADO Type and Dir to DB Tools.vi->NI_Database_API.lvlib:Rec Get Column Properties (R).vi->NI_Database_API.lvlib:DB Tools List Columns.vi->DB select data(index).vi->Outline_Station.vi->Call Steps.vi->Main Panel.vi<ERR>ADO Error: 0x000001F4
+Invalid type.  This data type is not directly supported by the database toolset and will be considered a String.
+7/8/2020 4:31:55 PM,【! 报警】,Outline_Station:SN-P71ALWB55009902202007071417131上线表数据不存在！,Ture,0,Outline_Station.vi:\NI_Database_API.lvlib:ADO Type and Dir to DB Tools.vi->NI_Database_API.lvlib:Rec Get Column Properties (R).vi->NI_Database_API.lvlib:DB Tools List Columns.vi->DB select data(index).vi->Outline_Station.vi->Call Steps.vi->Main Panel.vi<ERR>ADO Error: 0x000001F4
+Invalid type.  This data type is not directly supported by the database toolset and will be considered a String.
+7/8/2020 4:32:10 PM,【! 报警】,,Ture,0,Outline_Station.vi:\Acquire Semaphore.vi:3480002->Read Sigle Bool.vi:5320002->Outline_Station.vi->Call Steps.vi->Main Panel.vi中的元素出队列
+7/8/2020 4:34:14 PM,【! 报警】,,Ture,0,Outline_Station.vi:\Acquire Semaphore.vi:3480002->Read Sigle Bool.vi:5320002->Outline_Station.vi->Call Steps.vi->Main Panel.vi中的元素出队列
+7/8/2020 4:37:11 PM,【! 报警】,：天窗上线成功！,Ture,0,Online_Station.vi:\数据存储异常！
+7/8/2020 4:37:15 PM,【! 报警】,：天窗上线成功！,Ture,0,Online_Station.vi:\数据存储异常！
+7/8/2020 4:37:19 PM,【! 报警】,：天窗上线成功！,Ture,0,Online_Station.vi:\数据存储异常！
+7/8/2020 4:37:23 PM,【! 报警】,：天窗上线成功！,Ture,0,Online_Station.vi:\数据存储异常！
+7/8/2020 4:37:27 PM,【! 报警】,：天窗上线成功！,Ture,0,Online_Station.vi:\数据存储异常！
+7/8/2020 4:37:31 PM,【! 报警】,：天窗上线成功！,Ture,0,Online_Station.vi:\数据存储异常！
+7/8/2020 4:37:36 PM,【! 报警】,JDP71ALWB55009902202007071316102：天窗上线成功！,Ture,0,Online_Station.vi:\数据存储异常！
+7/8/2020 4:37:40 PM,【! 报警】,JDP71ALWB55009902202007071316102：天窗上线成功！,Ture,0,Online_Station.vi:\数据存储异常！
+7/8/2020 4:37:43 PM,【! 报警】,JDP71ALWB55009902202007071316102：天窗上线成功！,Ture,0,Online_Station.vi:\数据存储异常！
+7/8/2020 4:37:47 PM,【! 报警】,JDP71ALWB55009902202007071316102：天窗上线成功！,Ture,0,Online_Station.vi:\数据存储异常！
+7/8/2020 4:37:51 PM,【! 报警】,JDP71ALWB55009902202007071316102：天窗上线成功！,Ture,0,Online_Station.vi:\数据存储异常！
+7/8/2020 4:37:55 PM,【! 报警】,JDP71ALWB55009902202007071316102：天窗上线成功！,Ture,0,Online_Station.vi:\数据存储异常！
+7/8/2020 4:37:59 PM,【! 报警】,JDP71ALWB55009902202007071316102：天窗上线成功！,Ture,0,Online_Station.vi:\数据存储异常！
+7/8/2020 4:38:03 PM,【! 报警】,JDP71ALWB55009902202007071316102：天窗上线成功！,Ture,0,Online_Station.vi:\数据存储异常！
+7/8/2020 4:38:07 PM,【! 报警】,JDP71ALWB55009902202007071316102：天窗上线成功！,Ture,0,Online_Station.vi:\数据存储异常！
+7/8/2020 4:38:11 PM,【! 报警】,JDP71ALWB55009902202007071316102：天窗上线成功！,Ture,0,Online_Station.vi:\数据存储异常！
+7/8/2020 6:56:17 PM,【! 报警】,JDP71ALWB55009902202007071241092：天窗上线成功！,Ture,0,Online_Station.vi:\数据存储异常！
+7/8/2020 7:05:24 PM,【! 报警】,JDP71ALWB55009902202007071239091：天窗上线成功！,Ture,0,Online_Station.vi:\数据存储异常！

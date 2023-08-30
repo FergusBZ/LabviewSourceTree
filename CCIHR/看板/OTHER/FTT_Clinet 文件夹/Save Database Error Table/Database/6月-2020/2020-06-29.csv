@@ -1,0 +1,100 @@
+2020/6/29 9:38:33,【! 报警】,,Ture,0,Station_NG Station.vi:\TCP Open Connection in Simatic S7.lvlib:Connection Siemens CPU.vi->Read Sigle Word.vi:7450001->Station_NG Station.vi->Call Steps.vi->Main Panel.vi
+2020/6/29 9:38:48,【! 报警】,,Ture,0,Outline_Station.vi:\TCP Open Connection in Simatic S7.lvlib:Connection Siemens CPU.vi->Read Sigle Bool.vi:5320002->Outline_Station.vi->Call Steps.vi->Main Panel.vi
+2020/6/29 9:39:03,【! 报警】,:Current IP isn't exsit!,Ture,0,Online_Station.vi:\
+2020/6/29 9:39:27,【! 报警】,,Ture,0,Station_NG Station.vi:\TCP Open Connection in Simatic S7.lvlib:Connection Siemens CPU.vi->Read Sigle Word.vi:7450001->Station_NG Station.vi->Call Steps.vi->Main Panel.vi
+2020/6/29 9:39:42,【! 报警】,,Ture,0,Outline_Station.vi:\TCP Open Connection in Simatic S7.lvlib:Connection Siemens CPU.vi->Read Sigle Bool.vi:5320002->Outline_Station.vi->Call Steps.vi->Main Panel.vi
+2020/6/29 16:37:45,【! 报警】,,Ture,0,Query FTT Data.vi:\
+2020/6/29 16:38:18,【! 报警】,,Ture,0,Query FTT Data.vi:\
+2020/6/29 16:38:49,【! 报警】,,Ture,0,Query FTT Data.vi:\
+2020/6/29 18:17:39,【! 报警】,,Ture,0,Query FTT Data.vi:\
+2020/6/29 20:58:49,【! 报警】,,Ture,0,Station_NG Station.vi:\Data not Valid! Value out of range
+2020/6/29 20:58:59,【! 报警】,,Ture,0,Outline_Station.vi:\Data not Valid! Value out of range
+2020/6/29 20:58:59,【! 报警】,:Current IP isn't exsit!,Ture,0,Online_Station.vi:\
+2020/6/29 20:59:44,【! 报警】,上线SN:41606292020--->Frame:,Ture,0,Online_Station.vi:\框架号为空！
+2020/6/29 21:00:17,【! 报警】,40606292020:下线站修改上线表状态异常！,Ture,0,Outline_Station.vi:\NI_Database_API.lvlib:ADO Type and Dir to DB Tools.vi->NI_Database_API.lvlib:Rec Get Column Properties (R).vi->NI_Database_API.lvlib:DB Tools List Columns.vi->DB select data(index).vi->Outline_Station.vi->Call Steps.vi->Main Panel.vi<ERR>ADO Error: 0x000001F4
+Invalid type.  This data type is not directly supported by the database toolset and will be considered a String.
+2020/6/29 21:00:18,【! 报警】,40606292020:天窗下线完成!,Ture,0,Outline_Station.vi:\
+2020/6/29 21:01:54,【! 报警】,40706292020:下线站修改上线表状态异常！,Ture,0,Outline_Station.vi:\NI_Database_API.lvlib:ADO Type and Dir to DB Tools.vi->NI_Database_API.lvlib:Rec Get Column Properties (R).vi->NI_Database_API.lvlib:DB Tools List Columns.vi->DB select data(index).vi->Outline_Station.vi->Call Steps.vi->Main Panel.vi<ERR>ADO Error: 0x000001F4
+Invalid type.  This data type is not directly supported by the database toolset and will be considered a String.
+2020/6/29 21:01:54,【! 报警】,40706292020:天窗下线完成!,Ture,0,Outline_Station.vi:\
+2020/6/29 21:02:28,【! 报警】,上线SN:41606292020--->Frame:,Ture,0,Online_Station.vi:\框架号为空！
+2020/6/29 21:03:31,【! 报警】,40806292020:下线站修改上线表状态异常！,Ture,0,Outline_Station.vi:\NI_Database_API.lvlib:ADO Type and Dir to DB Tools.vi->NI_Database_API.lvlib:Rec Get Column Properties (R).vi->NI_Database_API.lvlib:DB Tools List Columns.vi->DB select data(index).vi->Outline_Station.vi->Call Steps.vi->Main Panel.vi<ERR>ADO Error: 0x000001F4
+Invalid type.  This data type is not directly supported by the database toolset and will be considered a String.
+2020/6/29 21:03:32,【! 报警】,40806292020:天窗下线完成!,Ture,0,Outline_Station.vi:\
+2020/6/29 21:04:05,【! 报警】,上线SN:41706292020--->Frame:,Ture,0,Online_Station.vi:\框架号为空！
+2020/6/29 21:04:09,【! 报警】,ST55SN:41206292020NG件数据记录完成,Ture,0,Station_NG Station.vi:\Main Panel.vi->Call Steps.vi->Database Variant To Data 
+2020/6/29 21:05:10,【! 报警】,40906292020:下线站修改上线表状态异常！,Ture,0,Outline_Station.vi:\NI_Database_API.lvlib:ADO Type and Dir to DB Tools.vi->NI_Database_API.lvlib:Rec Get Column Properties (R).vi->NI_Database_API.lvlib:DB Tools List Columns.vi->DB select data(index).vi->Outline_Station.vi->Call Steps.vi->Main Panel.vi<ERR>ADO Error: 0x000001F4
+Invalid type.  This data type is not directly supported by the database toolset and will be considered a String.
+2020/6/29 21:05:11,【! 报警】,40906292020:天窗下线完成!,Ture,0,Outline_Station.vi:\
+2020/6/29 21:05:44,【! 报警】,上线SN:41806292020--->Frame:,Ture,0,Online_Station.vi:\框架号为空！
+2020/6/29 21:06:10,【! 报警】,ST55SN:41206292020NG件数据记录完成,Ture,0,Station_NG Station.vi:\Main Panel.vi->Call Steps.vi->Database Variant To Data 
+2020/6/29 21:06:21,【! 报警】,上线SN:41906292020--->Frame:,Ture,0,Online_Station.vi:\框架号为空！
+2020/6/29 21:06:39,【! 报警】,ST55SN:41206292020NG件数据记录完成,Ture,0,Station_NG Station.vi:\Main Panel.vi->Call Steps.vi->Database Variant To Data 
+2020/6/29 21:06:45,【! 报警】,EMPTY PLT! :下线站修改上线表状态异常！,Ture,0,Outline_Station.vi:\NI_Database_API.lvlib:ADO Type and Dir to DB Tools.vi->NI_Database_API.lvlib:Rec Get Column Properties (R).vi->NI_Database_API.lvlib:DB Tools List Columns.vi->DB select data(index).vi->Outline_Station.vi->Call Steps.vi->Main Panel.vi<ERR>ADO Error: 0x000001F4
+Invalid type.  This data type is not directly supported by the database toolset and will be considered a String.
+2020/6/29 21:06:45,【! 报警】,EMPTY PLT! :天窗下线完成!,Ture,0,Outline_Station.vi:\
+2020/6/29 21:07:40,【! 报警】,上线SN:41906292020--->Frame:,Ture,0,Online_Station.vi:\框架号为空！
+2020/6/29 21:08:12,【! 报警】,上线SN:42006292020--->Frame:,Ture,0,Online_Station.vi:\框架号为空！
+2020/6/29 21:08:22,【! 报警】,41006292020:下线站修改上线表状态异常！,Ture,0,Outline_Station.vi:\NI_Database_API.lvlib:ADO Type and Dir to DB Tools.vi->NI_Database_API.lvlib:Rec Get Column Properties (R).vi->NI_Database_API.lvlib:DB Tools List Columns.vi->DB select data(index).vi->Outline_Station.vi->Call Steps.vi->Main Panel.vi<ERR>ADO Error: 0x000001F4
+Invalid type.  This data type is not directly supported by the database toolset and will be considered a String.
+2020/6/29 21:08:23,【! 报警】,41006292020:天窗下线完成!,Ture,0,Outline_Station.vi:\
+2020/6/29 21:09:13,【! 报警】,上线SN:42006292020--->Frame:,Ture,0,Online_Station.vi:\框架号为空！
+2020/6/29 21:10:00,【! 报警】,41106292020:下线站修改上线表状态异常！,Ture,0,Outline_Station.vi:\NI_Database_API.lvlib:ADO Type and Dir to DB Tools.vi->NI_Database_API.lvlib:Rec Get Column Properties (R).vi->NI_Database_API.lvlib:DB Tools List Columns.vi->DB select data(index).vi->Outline_Station.vi->Call Steps.vi->Main Panel.vi<ERR>ADO Error: 0x000001F4
+Invalid type.  This data type is not directly supported by the database toolset and will be considered a String.
+2020/6/29 21:10:00,【! 报警】,41106292020:天窗下线完成!,Ture,0,Outline_Station.vi:\
+2020/6/29 21:10:25,【! 报警】,ST110SN:41006292020NG件数据记录完成,Ture,0,Station_NG Station.vi:\Main Panel.vi->Call Steps.vi->Database Variant To Data 
+2020/6/29 21:10:51,【! 报警】,上线SN:42106292020--->Frame:,Ture,0,Online_Station.vi:\框架号为空！
+2020/6/29 21:11:37,【! 报警】,上线SN:42206292020--->Frame:,Ture,0,Online_Station.vi:\框架号为空！
+2020/6/29 21:11:42,【! 报警】,41206292020:下线站修改上线表状态异常！,Ture,0,Outline_Station.vi:\NI_Database_API.lvlib:ADO Type and Dir to DB Tools.vi->NI_Database_API.lvlib:Rec Get Column Properties (R).vi->NI_Database_API.lvlib:DB Tools List Columns.vi->DB select data(index).vi->Outline_Station.vi->Call Steps.vi->Main Panel.vi<ERR>ADO Error: 0x000001F4
+Invalid type.  This data type is not directly supported by the database toolset and will be considered a String.
+2020/6/29 21:11:42,【! 报警】,41206292020:天窗下线完成!,Ture,0,Outline_Station.vi:\
+2020/6/29 21:13:29,【! 报警】,41306292020:下线站修改上线表状态异常！,Ture,0,Outline_Station.vi:\NI_Database_API.lvlib:ADO Type and Dir to DB Tools.vi->NI_Database_API.lvlib:Rec Get Column Properties (R).vi->NI_Database_API.lvlib:DB Tools List Columns.vi->DB select data(index).vi->Outline_Station.vi->Call Steps.vi->Main Panel.vi<ERR>ADO Error: 0x000001F4
+Invalid type.  This data type is not directly supported by the database toolset and will be considered a String.
+2020/6/29 21:13:30,【! 报警】,41306292020:天窗下线完成!,Ture,0,Outline_Station.vi:\
+2020/6/29 21:13:46,【! 报警】,上线SN:42206292020--->Frame:,Ture,0,Online_Station.vi:\框架号为空！
+2020/6/29 21:15:07,【! 报警】,41406292020:下线站修改上线表状态异常！,Ture,0,Outline_Station.vi:\NI_Database_API.lvlib:ADO Type and Dir to DB Tools.vi->NI_Database_API.lvlib:Rec Get Column Properties (R).vi->NI_Database_API.lvlib:DB Tools List Columns.vi->DB select data(index).vi->Outline_Station.vi->Call Steps.vi->Main Panel.vi<ERR>ADO Error: 0x000001F4
+Invalid type.  This data type is not directly supported by the database toolset and will be considered a String.
+2020/6/29 21:15:08,【! 报警】,41406292020:天窗下线完成!,Ture,0,Outline_Station.vi:\
+2020/6/29 21:15:13,【! 报警】,上线SN:42306292020--->Frame:,Ture,0,Online_Station.vi:\框架号为空！
+2020/6/29 21:15:45,【! 报警】,上线SN:42406292020--->Frame:,Ture,0,Online_Station.vi:\框架号为空！
+2020/6/29 21:16:45,【! 报警】,41506292020:下线站修改上线表状态异常！,Ture,0,Outline_Station.vi:\NI_Database_API.lvlib:ADO Type and Dir to DB Tools.vi->NI_Database_API.lvlib:Rec Get Column Properties (R).vi->NI_Database_API.lvlib:DB Tools List Columns.vi->DB select data(index).vi->Outline_Station.vi->Call Steps.vi->Main Panel.vi<ERR>ADO Error: 0x000001F4
+Invalid type.  This data type is not directly supported by the database toolset and will be considered a String.
+2020/6/29 21:16:46,【! 报警】,41506292020:天窗下线完成!,Ture,0,Outline_Station.vi:\
+2020/6/29 21:16:56,【! 报警】,上线SN:42406292020--->Frame:,Ture,0,Online_Station.vi:\框架号为空！
+2020/6/29 21:18:36,【! 报警】,上线SN:42506292020--->Frame:,Ture,0,Online_Station.vi:\框架号为空！
+2020/6/29 21:20:02,【! 报警】,上线SN:42606292020--->Frame:,Ture,0,Online_Station.vi:\框架号为空！
+2020/6/29 21:20:37,【! 报警】,上线SN:42706292020--->Frame:,Ture,0,Online_Station.vi:\框架号为空！
+2020/6/29 21:21:21,【! 报警】,上线SN:42706292020--->Frame:,Ture,0,Online_Station.vi:\框架号为空！
+2020/6/29 21:22:19,【! 报警】,上线SN:42806292020--->Frame:,Ture,0,Online_Station.vi:\框架号为空！
+2020/6/29 21:22:51,【! 报警】,上线SN:42806292020--->Frame:,Ture,0,Online_Station.vi:\框架号为空！
+2020/6/29 21:23:56,【! 报警】,上线SN:42906292020--->Frame:,Ture,0,Online_Station.vi:\框架号为空！
+2020/6/29 21:25:36,【! 报警】,上线SN:43006292020--->Frame:,Ture,0,Online_Station.vi:\框架号为空！
+2020/6/29 21:27:19,【! 报警】,上线SN:43106292020--->Frame:,Ture,0,Online_Station.vi:\框架号为空！
+2020/6/29 21:27:51,【! 报警】,上线SN:43106292020--->Frame:,Ture,0,Online_Station.vi:\框架号为空！
+2020/6/29 21:28:59,【! 报警】,上线SN:43206292020--->Frame:,Ture,0,Online_Station.vi:\框架号为空！
+2020/6/29 21:29:31,【! 报警】,上线SN:43206292020--->Frame:,Ture,0,Online_Station.vi:\框架号为空！
+2020/6/29 21:30:39,【! 报警】,上线SN:43306292020--->Frame:,Ture,0,Online_Station.vi:\框架号为空！
+2020/6/29 21:32:18,【! 报警】,上线SN:43406292020--->Frame:,Ture,0,Online_Station.vi:\框架号为空！
+2020/6/29 21:33:58,【! 报警】,上线SN:43506292020--->Frame:,Ture,0,Online_Station.vi:\框架号为空！
+2020/6/29 21:34:39,【! 报警】,上线SN:43506292020--->Frame:,Ture,0,Online_Station.vi:\框架号为空！
+2020/6/29 21:35:39,【! 报警】,上线SN:43606292020--->Frame:,Ture,0,Online_Station.vi:\框架号为空！
+2020/6/29 21:37:18,【! 报警】,上线SN:43706292020--->Frame:,Ture,0,Online_Station.vi:\框架号为空！
+2020/6/29 21:38:05,【! 报警】,上线SN:43706292020--->Frame:,Ture,0,Online_Station.vi:\框架号为空！
+2020/6/29 21:38:58,【! 报警】,上线SN:43806292020--->Frame:,Ture,0,Online_Station.vi:\框架号为空！
+2020/6/29 21:39:41,【! 报警】,上线SN:43806292020--->Frame:,Ture,0,Online_Station.vi:\框架号为空！
+2020/6/29 21:40:39,【! 报警】,上线SN:43906292020--->Frame:,Ture,0,Online_Station.vi:\框架号为空！
+2020/6/29 21:41:27,【! 报警】,上线SN:43906292020--->Frame:,Ture,0,Online_Station.vi:\框架号为空！
+2020/6/29 21:42:24,【! 报警】,上线SN:44006292020--->Frame:,Ture,0,Online_Station.vi:\框架号为空！
+2020/6/29 21:43:21,【! 报警】,上线SN:44006292020--->Frame:,Ture,0,Online_Station.vi:\框架号为空！
+2020/6/29 21:43:58,【! 报警】,上线SN:44106292020--->Frame:,Ture,0,Online_Station.vi:\框架号为空！
+2020/6/29 21:44:34,【! 报警】,44106292020：天窗上线成功！,Ture,0,Online_Station.vi:\数据存储异常！
+2020/6/29 21:45:06,【! 报警】,上线SN:44106292020--->Frame:,Ture,0,Online_Station.vi:\框架号为空！
+2020/6/29 21:45:39,【! 报警】,上线SN:44206292020--->Frame:,Ture,0,Online_Station.vi:\框架号为空！
+2020/6/29 21:46:57,【! 报警】,上线SN:44206292020--->Frame:,Ture,0,Online_Station.vi:\框架号为空！
+2020/6/29 21:48:30,【! 报警】,44306292020：天窗上线成功！,Ture,0,Online_Station.vi:\数据存储异常！
+2020/6/29 21:49:23,【! 报警】,44306292020：天窗上线成功！,Ture,0,Online_Station.vi:\数据存储异常！
+2020/6/29 21:50:14,【! 报警】,上线SN:44306292020--->Frame:,Ture,0,Online_Station.vi:\框架号为空！
+2020/6/29 21:52:33,【! 报警】,上线SN:44406292020--->Frame:,Ture,0,Online_Station.vi:\框架号为空！
+2020/6/29 21:56:27,【! 报警】,上线SN:44506292020--->Frame:,Ture,0,Online_Station.vi:\框架号为空！
+2020/6/29 21:56:59,【! 报警】,上线SN:44606292020--->Frame:,Ture,0,Online_Station.vi:\框架号为空！
+2020/6/29 21:58:33,【! 报警】,上线SN:44606292020--->Frame:,Ture,0,Online_Station.vi:\框架号为空！

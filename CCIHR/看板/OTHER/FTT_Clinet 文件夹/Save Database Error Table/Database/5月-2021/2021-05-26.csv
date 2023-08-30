@@ -1,0 +1,6 @@
+2021/5/26 16:20:53,【! 报警】,JDX760LWB55009903202105201329088：天窗上线成功！,Ture,0,Online_Station.vi:\数据存储异常！
+2021/5/26 16:32:22,【! 报警】,JDX760LWB55009903202105221029013：天窗上线成功！,Ture,0,Online_Station.vi:\数据存储异常！
+2021/5/26 16:39:55,【! 报警】,JDX760LWB55009903202105221539125：天窗上线成功！,Ture,0,Online_Station.vi:\数据存储异常！
+2021/5/26 17:47:39,【! 报警】,JDX760LWB55009903202105252125040：天窗上线成功！,Ture,0,Online_Station.vi:\数据存储异常！
+2021/5/26 18:19:19,【! 报警】,Outline_Station:SN-上线表数据不存在！,Ture,0,Outline_Station.vi:\NI_Database_API.lvlib:ADO Type and Dir to DB Tools.vi->NI_Database_API.lvlib:Rec Get Column Properties (R).vi->NI_Database_API.lvlib:DB Tools List Columns.vi->DB select data(index).vi->Outline_Station.vi->Call Steps.vi->Main Panel.vi<ERR>ADO Error: 0x000001F4
+Invalid type.  This data type is not directly supported by the database toolset and will be considered a String.

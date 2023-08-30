@@ -1,0 +1,68 @@
+<?xml version='1.0' standalone='yes' ?>
+<LVData xmlns="http://www.ni.com/LVData">
+<Version>16.0</Version>
+<Array>
+<Name>CN Config</Name>
+<Dimsize>3</Dimsize>
+<Cluster>
+<Name>CN Config Ctr</Name>
+<NumElts>4</NumElts>
+<String>
+<Name>Model</Name>
+<Val>P71A</Val>
+</String>
+<String>
+<Name>Pic_Name</Name>
+<Val>Infiniti</Val>
+</String>
+<String>
+<Name>CarName</Name>
+<Val>QX50</Val>
+</String>
+<Boolean>
+<Name>En/Disable</Name>
+<Val>1</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>CN Config Ctr</Name>
+<NumElts>4</NumElts>
+<String>
+<Name>Model</Name>
+<Val>X261</Val>
+</String>
+<String>
+<Name>Pic_Name</Name>
+<Val>CJLR</Val>
+</String>
+<String>
+<Name>CarName</Name>
+<Val>½Ý±ªXF</Val>
+</String>
+<Boolean>
+<Name>En/Disable</Name>
+<Val>1</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>CN Config Ctr</Name>
+<NumElts>4</NumElts>
+<String>
+<Name>Model</Name>
+<Val>X760</Val>
+</String>
+<String>
+<Name>Pic_Name</Name>
+<Val>CJLR</Val>
+</String>
+<String>
+<Name>CarName</Name>
+<Val>½Ý±ªXE</Val>
+</String>
+<Boolean>
+<Name>En/Disable</Name>
+<Val>1</Val>
+</Boolean>
+</Cluster>
+</Array>
+</LVData>

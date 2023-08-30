@@ -1,0 +1,8 @@
+2020/11/3 14:22:26,【! 报警】,,Ture,0,Outline_Station.vi:\Acquire Semaphore.vi:3480003->Read Sigle Bool.vi:5320002->Outline_Station.vi->Call Steps.vi->Main Panel.vi中的元素出队列
+2020/11/3 14:22:26,【! 报警】,:Current IP isn't exsit!,Ture,0,Online_Station.vi:\
+2020/11/3 14:22:26,【! 报警】,,Ture,0,Station_NG Station.vi:\Acquire Semaphore.vi:3480003->Read Sigle Word.vi:7450001->Station_NG Station.vi->Call Steps.vi->Main Panel.vi中的元素出队列
+2020/11/3 14:22:26,【! 报警】,,Ture,0,Product Romete Exchange.vi:\
+2020/11/3 14:22:45,【! 报警】,,Ture,0,Outline_Station.vi:\Acquire Semaphore.vi:3480004->Read Sigle Bool.vi:5320002->Outline_Station.vi->Call Steps.vi->Main Panel.vi中的元素出队列
+2020/11/3 14:22:45,【! 报警】,,Ture,0,Station_NG Station.vi:\Acquire Semaphore.vi:3480004->Read Sigle Word.vi:7450001->Station_NG Station.vi->Call Steps.vi->Main Panel.vi中的元素出队列
+2020/11/3 14:22:45,【! 报警】,:Current IP isn't exsit!,Ture,0,Online_Station.vi:\
+2020/11/3 14:23:54,【! 报警】,,Ture,0,Outline_Station.vi:\Acquire Semaphore.vi:3480001->Read Sigle Bool.vi:5320002->Outline_Station.vi->Call Steps.vi->Main Panel.vi中的元素出队列

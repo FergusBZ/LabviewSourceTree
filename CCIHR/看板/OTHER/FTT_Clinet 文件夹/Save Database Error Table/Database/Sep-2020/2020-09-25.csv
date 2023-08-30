@@ -1,0 +1,7 @@
+25/09/2020 10:19:08,【! 报警】,更新服务器心跳失败！,Ture,0,Product Romete Exchange.vi:\
+25/09/2020 10:19:51,【! 报警】,Model:P71A-下线Me实时表更新完成！,Ture,0,Mes Remote Telephone.vi:\NI_Database_API.lvlib:DB Tools Open Connec (String).vi->Connection Database.vi->Mes Remote Telephone.vi->Call Steps.vi->Main Panel.vi<ERR>ADO Error: 0x80004005
+NI_Database_API.lvlib:DB Tools Open Connec (String).vi->Connection Database.vi->Mes Remote Telephone.vi->Call Steps.vi->Main Panel.vi中的Exception occured in Microsoft OLE DB Provider for ODBC Drivers: [Microsoft][ODBC SQL Server Driver]登录超时已过期
+25/09/2020 10:19:51,【! 报警】,更新服务器心跳失败！,Ture,0,Product Romete Exchange.vi:\
+25/09/2020 11:57:03,【×错误】,尾站FTT扫描枪扫码异常！,Ture,-1073807253,EndCheck Scan Code.vi:\Visa Read data.vi->EndCheck Scan Code.vi->Call Steps.vi->Main Panel.vi中的VISA读取
+25/09/2020 15:50:32,【! 报警】,更新服务器心跳失败！,Ture,0,Product Romete Exchange.vi:\
+25/09/2020 15:50:51,【! 报警】,更新服务器心跳失败！,Ture,0,Product Romete Exchange.vi:\

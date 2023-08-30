@@ -1,0 +1,4 @@
+2020/12/21 19:13:01,【! 报警】,JDX760LWB55009903202012151629216：天窗上线成功！,Ture,0,Online_Station.vi:\数据存储异常！
+2020/12/21 19:20:26,【! 报警】,JDX760LWB55009903202012180923031：天窗上线成功！,Ture,0,Online_Station.vi:\数据存储异常！
+2020/12/21 20:51:42,【! 报警】,NI_Database_API.lvlib:Cmd Execute.vi->NI_Database_API.lvlib:DB Tools Update Data.vi->DB Update Data(Feedback).vi:4630012->UPH & Target & Clear Zero.vi->Call Steps.vi->Main Panel.vi<ERR>ADO Error: 0x80040E31
+NI_Database_API.lvlib:Rec Create - Command.vi->NI_Database_API.lvlib:Cmd Execute.vi->NI_Database_API.lvlib:DB Tools Update Data.vi->DB Update Data(Feedback).vi:4630012->UPH & Target & Clear Zero.vi->Call Steps.vi->Main Panel.vi中的Exception occured in Microsoft OLE DB Provider for ODBC Drivers: [Microsoft][ODBC SQL Server Driver]查询超时已过期,Ture,0,UPH & Target & Clear Zero.vi:\

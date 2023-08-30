@@ -1,0 +1,6 @@
+2020/7/10 8:08:56,【! 报警】,JDP71ALWB55009902202007071156071：天窗上线成功！,Ture,0,Online_Station.vi:\数据存储异常！
+2020/7/10 9:17:36,【! 报警】,,Ture,0,Outline_Station.vi:\Acquire Semaphore.vi:3480001->Read Sigle Bool.vi:5320002->Outline_Station.vi->Call Steps.vi->Main Panel.vi中的元素出队列
+2020/7/10 9:20:51,【! 报警】,,Ture,0,Outline_Station.vi:\Acquire Semaphore.vi:3480003->Read Sigle Bool.vi:5320002->Outline_Station.vi->Call Steps.vi->Main Panel.vi中的元素出队列
+2020/7/10 10:05:57,【! 报警】,NI_Database_API.lvlib:Cmd Execute.vi->NI_Database_API.lvlib:DB Tools Update Data.vi->DB Update Data(Feedback).vi:4630013->UPH & Target & Clear Zero.vi->Call Steps.vi->Main Panel.vi<ERR>ADO Error: 0x80040E31
+NI_Database_API.lvlib:Rec Create - Command.vi->NI_Database_API.lvlib:Cmd Execute.vi->NI_Database_API.lvlib:DB Tools Update Data.vi->DB Update Data(Feedback).vi:4630013->UPH & Target & Clear Zero.vi->Call Steps.vi->Main Panel.vi中的Exception occured in Microsoft OLE DB Provider for ODBC Drivers: [Microsoft][ODBC SQL Server Driver]查询超时已过期,Ture,0,UPH & Target & Clear Zero.vi:\
+2020/7/10 19:51:15,【! 报警】,JDP71ALWB55009902202007091821226：天窗上线成功！,Ture,0,Online_Station.vi:\数据存储异常！

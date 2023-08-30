@@ -1,0 +1,82 @@
+6/24/2020 8:39:23 AM,【! 报警】,20906242020:下线站修改上线表状态异常！,Ture,0,Outline_Station.vi:\NI_Database_API.lvlib:Cmd Execute.vi->NI_Database_API.lvlib:DB Tools Update Data.vi->DB Update Data(Feedback).vi->Outline_Station.vi->Main Panel.vi<ERR>ADO Error: 0x80040E07
+NI_Database_API.lvlib:Rec Create - Command.vi->NI_Database_API.lvlib:Cmd Execute.vi->NI_Database_API.lvlib:DB Tools Update Data.vi->DB Update Data(Feedback).vi->Outline_Station.vi->Main Panel.vi中的Exception occured in Microsoft OLE DB Provider for ODBC Drivers: [Microsoft][ODBC SQL Server Driver][SQL Server]在将 varchar 值 'false' 转换成数据类型 int 时失败。
+6/24/2020 8:39:25 AM,【! 报警】,下线站修改FTT数据表异常,Ture,0,Outline_Station.vi:\
+6/24/2020 8:39:25 AM,【! 报警】,下线站修改FTT数据表异常,Ture,0,Outline_Station.vi:\NI_Database_API.lvlib:DB Tools Close Connection.vi->Disconncetion DB.vi->Outline_Station.vi->Main Panel.vi<ERR>ADO Error: 0x000001F9
+Open command object.
+6/24/2020 8:39:31 AM,【! 报警】,20906242020:下线站修改上线表状态异常！,Ture,0,Outline_Station.vi:\NI_Database_API.lvlib:Cmd Execute.vi->NI_Database_API.lvlib:DB Tools Update Data.vi->DB Update Data(Feedback).vi->Outline_Station.vi->Main Panel.vi<ERR>ADO Error: 0x80040E07
+NI_Database_API.lvlib:Rec Create - Command.vi->NI_Database_API.lvlib:Cmd Execute.vi->NI_Database_API.lvlib:DB Tools Update Data.vi->DB Update Data(Feedback).vi->Outline_Station.vi->Main Panel.vi中的Exception occured in Microsoft OLE DB Provider for ODBC Drivers: [Microsoft][ODBC SQL Server Driver][SQL Server]在将 varchar 值 'false' 转换成数据类型 int 时失败。
+6/24/2020 8:39:32 AM,【! 报警】,下线站修改FTT数据表异常,Ture,0,Outline_Station.vi:\
+6/24/2020 8:39:32 AM,【! 报警】,下线站修改FTT数据表异常,Ture,0,Outline_Station.vi:\NI_Database_API.lvlib:DB Tools Close Connection.vi->Disconncetion DB.vi->Outline_Station.vi->Main Panel.vi<ERR>ADO Error: 0x000001F9
+Open command object.
+6/24/2020 8:39:56 AM,【! 报警】,20906242020:下线站修改上线表状态异常！,Ture,0,Outline_Station.vi:\NI_Database_API.lvlib:Cmd Execute.vi->NI_Database_API.lvlib:DB Tools Update Data.vi->DB Update Data(Feedback).vi->Outline_Station.vi->Main Panel.vi<ERR>ADO Error: 0x80040E07
+NI_Database_API.lvlib:Rec Create - Command.vi->NI_Database_API.lvlib:Cmd Execute.vi->NI_Database_API.lvlib:DB Tools Update Data.vi->DB Update Data(Feedback).vi->Outline_Station.vi->Main Panel.vi中的Exception occured in Microsoft OLE DB Provider for ODBC Drivers: [Microsoft][ODBC SQL Server Driver][SQL Server]在将 varchar 值 'false' 转换成数据类型 int 时失败。
+6/24/2020 8:39:56 AM,【! 报警】,下线站修改FTT数据表异常,Ture,0,Outline_Station.vi:\
+6/24/2020 8:39:57 AM,【! 报警】,下线站修改FTT数据表异常,Ture,0,Outline_Station.vi:\NI_Database_API.lvlib:DB Tools Close Connection.vi->Disconncetion DB.vi->Outline_Station.vi->Main Panel.vi<ERR>ADO Error: 0x000001F9
+Open command object.
+6/24/2020 8:40:01 AM,【! 报警】,20906242020:下线站修改上线表状态异常！,Ture,0,Outline_Station.vi:\NI_Database_API.lvlib:Cmd Execute.vi->NI_Database_API.lvlib:DB Tools Update Data.vi->DB Update Data(Feedback).vi->Outline_Station.vi->Main Panel.vi<ERR>ADO Error: 0x80040E07
+NI_Database_API.lvlib:Rec Create - Command.vi->NI_Database_API.lvlib:Cmd Execute.vi->NI_Database_API.lvlib:DB Tools Update Data.vi->DB Update Data(Feedback).vi->Outline_Station.vi->Main Panel.vi中的Exception occured in Microsoft OLE DB Provider for ODBC Drivers: [Microsoft][ODBC SQL Server Driver][SQL Server]在将 varchar 值 'false' 转换成数据类型 int 时失败。
+6/24/2020 8:40:02 AM,【! 报警】,下线站修改FTT数据表异常,Ture,0,Outline_Station.vi:\
+6/24/2020 8:40:03 AM,【! 报警】,下线站修改FTT数据表异常,Ture,0,Outline_Station.vi:\NI_Database_API.lvlib:DB Tools Close Connection.vi->Disconncetion DB.vi->Outline_Station.vi->Main Panel.vi<ERR>ADO Error: 0x000001F9
+Open command object.
+6/24/2020 8:41:32 AM,【! 报警】,20906242020:下线站修改上线表状态异常！,Ture,0,Outline_Station.vi:\NI_Database_API.lvlib:Cmd Execute.vi->NI_Database_API.lvlib:DB Tools Update Data.vi->DB Update Data(Feedback).vi->Outline_Station.vi->Main Panel.vi<ERR>ADO Error: 0x80040E07
+NI_Database_API.lvlib:Rec Create - Command.vi->NI_Database_API.lvlib:Cmd Execute.vi->NI_Database_API.lvlib:DB Tools Update Data.vi->DB Update Data(Feedback).vi->Outline_Station.vi->Main Panel.vi中的Exception occured in Microsoft OLE DB Provider for ODBC Drivers: [Microsoft][ODBC SQL Server Driver][SQL Server]在将 varchar 值 'false' 转换成数据类型 int 时失败。
+6/24/2020 8:41:33 AM,【! 报警】,下线站修改FTT数据表异常,Ture,0,Outline_Station.vi:\
+6/24/2020 8:41:33 AM,【! 报警】,下线站修改FTT数据表异常,Ture,0,Outline_Station.vi:\NI_Database_API.lvlib:DB Tools Close Connection.vi->Disconncetion DB.vi->Outline_Station.vi->Main Panel.vi<ERR>ADO Error: 0x000001F9
+Open command object.
+6/24/2020 8:41:39 AM,【! 报警】,20906242020:下线站修改上线表状态异常！,Ture,0,Outline_Station.vi:\NI_Database_API.lvlib:Cmd Execute.vi->NI_Database_API.lvlib:DB Tools Update Data.vi->DB Update Data(Feedback).vi->Outline_Station.vi->Main Panel.vi<ERR>ADO Error: 0x80040E07
+NI_Database_API.lvlib:Rec Create - Command.vi->NI_Database_API.lvlib:Cmd Execute.vi->NI_Database_API.lvlib:DB Tools Update Data.vi->DB Update Data(Feedback).vi->Outline_Station.vi->Main Panel.vi中的Exception occured in Microsoft OLE DB Provider for ODBC Drivers: [Microsoft][ODBC SQL Server Driver][SQL Server]在将 varchar 值 'false' 转换成数据类型 int 时失败。
+6/24/2020 8:41:40 AM,【! 报警】,下线站修改FTT数据表异常,Ture,0,Outline_Station.vi:\
+6/24/2020 8:41:40 AM,【! 报警】,下线站修改FTT数据表异常,Ture,0,Outline_Station.vi:\NI_Database_API.lvlib:DB Tools Close Connection.vi->Disconncetion DB.vi->Outline_Station.vi->Main Panel.vi<ERR>ADO Error: 0x000001F9
+Open command object.
+6/24/2020 8:42:02 AM,【! 报警】,20906242020:下线站修改上线表状态异常！,Ture,0,Outline_Station.vi:\NI_Database_API.lvlib:Cmd Execute.vi->NI_Database_API.lvlib:DB Tools Update Data.vi->DB Update Data(Feedback).vi->Outline_Station.vi->Main Panel.vi<ERR>ADO Error: 0x80040E07
+NI_Database_API.lvlib:Rec Create - Command.vi->NI_Database_API.lvlib:Cmd Execute.vi->NI_Database_API.lvlib:DB Tools Update Data.vi->DB Update Data(Feedback).vi->Outline_Station.vi->Main Panel.vi中的Exception occured in Microsoft OLE DB Provider for ODBC Drivers: [Microsoft][ODBC SQL Server Driver][SQL Server]在将 varchar 值 'false' 转换成数据类型 int 时失败。
+6/24/2020 8:42:03 AM,【! 报警】,下线站修改FTT数据表异常,Ture,0,Outline_Station.vi:\
+6/24/2020 8:42:03 AM,【! 报警】,下线站修改FTT数据表异常,Ture,0,Outline_Station.vi:\NI_Database_API.lvlib:DB Tools Close Connection.vi->Disconncetion DB.vi->Outline_Station.vi->Main Panel.vi<ERR>ADO Error: 0x000001F9
+Open command object.
+6/24/2020 8:42:08 AM,【! 报警】,20906242020:下线站修改上线表状态异常！,Ture,0,Outline_Station.vi:\NI_Database_API.lvlib:Cmd Execute.vi->NI_Database_API.lvlib:DB Tools Update Data.vi->DB Update Data(Feedback).vi->Outline_Station.vi->Main Panel.vi<ERR>ADO Error: 0x80040E07
+NI_Database_API.lvlib:Rec Create - Command.vi->NI_Database_API.lvlib:Cmd Execute.vi->NI_Database_API.lvlib:DB Tools Update Data.vi->DB Update Data(Feedback).vi->Outline_Station.vi->Main Panel.vi中的Exception occured in Microsoft OLE DB Provider for ODBC Drivers: [Microsoft][ODBC SQL Server Driver][SQL Server]在将 varchar 值 'false' 转换成数据类型 int 时失败。
+6/24/2020 8:42:09 AM,【! 报警】,下线站修改FTT数据表异常,Ture,0,Outline_Station.vi:\
+6/24/2020 8:42:09 AM,【! 报警】,下线站修改FTT数据表异常,Ture,0,Outline_Station.vi:\NI_Database_API.lvlib:DB Tools Close Connection.vi->Disconncetion DB.vi->Outline_Station.vi->Main Panel.vi<ERR>ADO Error: 0x000001F9
+Open command object.
+6/24/2020 8:43:23 AM,【! 报警】,21006242020:下线站修改上线表状态异常！,Ture,0,Outline_Station.vi:\NI_Database_API.lvlib:Cmd Execute.vi->NI_Database_API.lvlib:DB Tools Update Data.vi->DB Update Data(Feedback).vi->Outline_Station.vi->Main Panel.vi<ERR>ADO Error: 0x80040E07
+NI_Database_API.lvlib:Rec Create - Command.vi->NI_Database_API.lvlib:Cmd Execute.vi->NI_Database_API.lvlib:DB Tools Update Data.vi->DB Update Data(Feedback).vi->Outline_Station.vi->Main Panel.vi中的Exception occured in Microsoft OLE DB Provider for ODBC Drivers: [Microsoft][ODBC SQL Server Driver][SQL Server]在将 varchar 值 'true' 转换成数据类型 int 时失败。
+6/24/2020 8:43:24 AM,【! 报警】,下线站修改FTT数据表异常,Ture,0,Outline_Station.vi:\
+6/24/2020 8:43:25 AM,【! 报警】,下线站修改FTT数据表异常,Ture,0,Outline_Station.vi:\NI_Database_API.lvlib:DB Tools Close Connection.vi->Disconncetion DB.vi->Outline_Station.vi->Main Panel.vi<ERR>ADO Error: 0x000001F9
+Open command object.
+6/24/2020 8:43:26 AM,【! 报警】,21006242020:下线站修改上线表状态异常！,Ture,0,Outline_Station.vi:\NI_Database_API.lvlib:Cmd Execute.vi->NI_Database_API.lvlib:DB Tools Update Data.vi->DB Update Data(Feedback).vi->Outline_Station.vi->Main Panel.vi<ERR>ADO Error: 0x80040E07
+NI_Database_API.lvlib:Rec Create - Command.vi->NI_Database_API.lvlib:Cmd Execute.vi->NI_Database_API.lvlib:DB Tools Update Data.vi->DB Update Data(Feedback).vi->Outline_Station.vi->Main Panel.vi中的Exception occured in Microsoft OLE DB Provider for ODBC Drivers: [Microsoft][ODBC SQL Server Driver][SQL Server]在将 varchar 值 'true' 转换成数据类型 int 时失败。
+6/24/2020 8:43:27 AM,【! 报警】,下线站修改FTT数据表异常,Ture,0,Outline_Station.vi:\
+6/24/2020 8:43:27 AM,【! 报警】,下线站修改FTT数据表异常,Ture,0,Outline_Station.vi:\NI_Database_API.lvlib:DB Tools Close Connection.vi->Disconncetion DB.vi->Outline_Station.vi->Main Panel.vi<ERR>ADO Error: 0x000001F9
+Open command object.
+6/24/2020 8:47:04 AM,【! 报警】,:Current IP isn't exsit!,Ture,0,Online_Station.vi:\
+6/24/2020 8:54:46 AM,【! 报警】,,Ture,0,Outline_Station.vi:\Acquire Semaphore.vi:3480002->Read Sigle Bool.vi:5320002->Outline_Station.vi->Main Panel.vi中的元素出队列
+6/24/2020 8:56:53 AM,【! 报警】,,Ture,0,Outline_Station.vi:\Acquire Semaphore.vi:3480001->Read Sigle Bool.vi:5320002->Outline_Station.vi->Main Panel.vi中的元素出队列
+6/24/2020 9:01:39 AM,【! 报警】,,Ture,0,Outline_Station.vi:\Acquire Semaphore.vi:3480002->Read Sigle Bool.vi:5320002->Outline_Station.vi->Main Panel.vi中的元素出队列
+6/24/2020 9:01:39 AM,【! 报警】,:Current IP isn't exsit!,Ture,0,Online_Station.vi:\
+6/24/2020 9:04:00 AM,【! 报警】,,Ture,0,Outline_Station.vi:\Acquire Semaphore.vi:3480002->Read Sigle Bool.vi:5320002->Outline_Station.vi->Main Panel.vi中的元素出队列
+6/24/2020 9:04:12 AM,【! 报警】,下线站修改FTT数据表异常,Ture,0,Outline_Station.vi:\NI_Database_API.lvlib:Conn Execute.vi->NI_Database_API.lvlib:DB Tools List Columns.vi->DB select data(index).vi->Outline_Station.vi->Main Panel.vi<ERR>ADO Error: 0x80040E37
+NI_Database_API.lvlib:Conn Execute.vi->NI_Database_API.lvlib:DB Tools List Columns.vi->DB select data(index).vi->Outline_Station.vi->Main Panel.vi中的Exception occured in Microsoft OLE DB Provider for ODBC Drivers: [Microsoft][ODBC SQL Server Driver][SQL Server]对象名 'FTT1_' 无效。
+6/24/2020 9:04:13 AM,【! 报警】,下线站修改FTT数据表异常,Ture,0,Outline_Station.vi:\NI_Database_API.lvlib:Conn Execute.vi->NI_Database_API.lvlib:DB Tools List Columns.vi->DB select data(index).vi->Outline_Station.vi->Main Panel.vi<ERR>ADO Error: 0x80040E37
+NI_Database_API.lvlib:Conn Execute.vi->NI_Database_API.lvlib:DB Tools List Columns.vi->DB select data(index).vi->Outline_Station.vi->Main Panel.vi中的Exception occured in Microsoft OLE DB Provider for ODBC Drivers: [Microsoft][ODBC SQL Server Driver][SQL Server]对象名 'FTT1_' 无效。
+6/24/2020 9:04:18 AM,【! 报警】,下线站修改FTT数据表异常,Ture,0,Outline_Station.vi:\NI_Database_API.lvlib:Conn Execute.vi->NI_Database_API.lvlib:DB Tools List Columns.vi->DB select data(index).vi->Outline_Station.vi->Main Panel.vi<ERR>ADO Error: 0x80040E37
+NI_Database_API.lvlib:Conn Execute.vi->NI_Database_API.lvlib:DB Tools List Columns.vi->DB select data(index).vi->Outline_Station.vi->Main Panel.vi中的Exception occured in Microsoft OLE DB Provider for ODBC Drivers: [Microsoft][ODBC SQL Server Driver][SQL Server]对象名 'FTT1_' 无效。
+6/24/2020 9:04:45 AM,【! 报警】,,Ture,0,Outline_Station.vi:\Acquire Semaphore.vi:3480002->Read Sigle Bool.vi:5320002->Outline_Station.vi->Main Panel.vi中的元素出队列
+6/24/2020 9:09:40 AM,【! 报警】,,Ture,0,Outline_Station.vi:\Acquire Semaphore.vi:3480002->Read Sigle Bool.vi:5320002->Outline_Station.vi->Main Panel.vi中的元素出队列
+6/24/2020 9:16:20 AM,【! 报警】,,Ture,0,Outline_Station.vi:\Acquire Semaphore.vi:3480001->Read Sigle Bool.vi:5320002->Outline_Station.vi->Main Panel.vi中的元素出队列
+6/24/2020 9:24:25 AM,【! 报警】,,Ture,0,Outline_Station.vi:\Acquire Semaphore.vi:3480002->Read Sigle Bool.vi:5320002->Outline_Station.vi->Main Panel.vi中的元素出队列
+6/24/2020 9:25:42 AM,【! 报警】,,Ture,0,Outline_Station.vi:\Acquire Semaphore.vi:3480001->Read Sigle Bool.vi:5320002->Outline_Station.vi->Main Panel.vi中的元素出队列
+6/24/2020 9:46:47 AM,【! 报警】,,Ture,0,Outline_Station.vi:\Acquire Semaphore.vi:3480001->Read Sigle Bool.vi:5320002->Outline_Station.vi->Main Panel.vi中的元素出队列
+6/24/2020 9:51:49 AM,【! 报警】,23806242020:天窗下线完成!,Ture,0,Outline_Station.vi:\NI_Database_API.lvlib:Conn Execute.vi->NI_Database_API.lvlib:DB Tools List Columns.vi->DB Update Data(Feedback).vi->Outline_Station.vi->Main Panel.vi<ERR>ADO Error: 0x80040E14
+NI_Database_API.lvlib:Conn Execute.vi->NI_Database_API.lvlib:DB Tools List Columns.vi->DB Update Data(Feedback).vi->Outline_Station.vi->Main Panel.vi中的Exception occured in Microsoft OLE DB Provider for ODBC Drivers: [Microsoft][ODBC SQL Server Driver][SQL Server]'23906242020' 附近有语法错误。
+6/24/2020 9:52:23 AM,【! 报警】,23806242020:天窗下线完成!,Ture,0,Outline_Station.vi:\NI_Database_API.lvlib:Conn Execute.vi->NI_Database_API.lvlib:DB Tools List Columns.vi->DB Update Data(Feedback).vi->Outline_Station.vi->Main Panel.vi<ERR>ADO Error: 0x80040E14
+NI_Database_API.lvlib:Conn Execute.vi->NI_Database_API.lvlib:DB Tools List Columns.vi->DB Update Data(Feedback).vi->Outline_Station.vi->Main Panel.vi中的Exception occured in Microsoft OLE DB Provider for ODBC Drivers: [Microsoft][ODBC SQL Server Driver][SQL Server]'23906242020' 附近有语法错误。
+6/24/2020 9:58:32 AM,【! 报警】,24106242020:天窗下线完成!,Ture,0,Outline_Station.vi:\NI_Database_API.lvlib:Conn Execute.vi->NI_Database_API.lvlib:DB Tools List Columns.vi->DB Update Data(Feedback).vi->Outline_Station.vi->Main Panel.vi<ERR>ADO Error: 0x80040E14
+NI_Database_API.lvlib:Conn Execute.vi->NI_Database_API.lvlib:DB Tools List Columns.vi->DB Update Data(Feedback).vi->Outline_Station.vi->Main Panel.vi中的Exception occured in Microsoft OLE DB Provider for ODBC Drivers: [Microsoft][ODBC SQL Server Driver][SQL Server]'24206242020' 附近有语法错误。
+6/24/2020 9:58:57 AM,【! 报警】,24106242020:天窗下线完成!,Ture,0,Outline_Station.vi:\NI_Database_API.lvlib:Conn Execute.vi->NI_Database_API.lvlib:DB Tools List Columns.vi->DB Update Data(Feedback).vi->Outline_Station.vi->Main Panel.vi<ERR>ADO Error: 0x80040E14
+NI_Database_API.lvlib:Conn Execute.vi->NI_Database_API.lvlib:DB Tools List Columns.vi->DB Update Data(Feedback).vi->Outline_Station.vi->Main Panel.vi中的Exception occured in Microsoft OLE DB Provider for ODBC Drivers: [Microsoft][ODBC SQL Server Driver][SQL Server]'24206242020' 附近有语法错误。
+6/24/2020 9:59:14 AM,【! 报警】,24106242020:天窗下线完成!,Ture,0,Outline_Station.vi:\NI_Database_API.lvlib:Conn Execute.vi->NI_Database_API.lvlib:DB Tools List Columns.vi->DB Update Data(Feedback).vi->Outline_Station.vi->Main Panel.vi<ERR>ADO Error: 0x80040E14
+NI_Database_API.lvlib:Conn Execute.vi->NI_Database_API.lvlib:DB Tools List Columns.vi->DB Update Data(Feedback).vi->Outline_Station.vi->Main Panel.vi中的Exception occured in Microsoft OLE DB Provider for ODBC Drivers: [Microsoft][ODBC SQL Server Driver][SQL Server]'24206242020' 附近有语法错误。
+6/24/2020 9:59:17 AM,【! 报警】,24106242020:天窗下线完成!,Ture,0,Outline_Station.vi:\NI_Database_API.lvlib:Conn Execute.vi->NI_Database_API.lvlib:DB Tools List Columns.vi->DB Update Data(Feedback).vi->Outline_Station.vi->Main Panel.vi<ERR>ADO Error: 0x80040E14
+NI_Database_API.lvlib:Conn Execute.vi->NI_Database_API.lvlib:DB Tools List Columns.vi->DB Update Data(Feedback).vi->Outline_Station.vi->Main Panel.vi中的Exception occured in Microsoft OLE DB Provider for ODBC Drivers: [Microsoft][ODBC SQL Server Driver][SQL Server]'24206242020' 附近有语法错误。
+6/24/2020 9:59:31 AM,【! 报警】,24106242020:天窗下线完成!,Ture,0,Outline_Station.vi:\NI_Database_API.lvlib:Conn Execute.vi->NI_Database_API.lvlib:DB Tools List Columns.vi->DB Update Data(Feedback).vi->Outline_Station.vi->Main Panel.vi<ERR>ADO Error: 0x80040E14
+NI_Database_API.lvlib:Conn Execute.vi->NI_Database_API.lvlib:DB Tools List Columns.vi->DB Update Data(Feedback).vi->Outline_Station.vi->Main Panel.vi中的Exception occured in Microsoft OLE DB Provider for ODBC Drivers: [Microsoft][ODBC SQL Server Driver][SQL Server]'24206242020' 附近有语法错误。

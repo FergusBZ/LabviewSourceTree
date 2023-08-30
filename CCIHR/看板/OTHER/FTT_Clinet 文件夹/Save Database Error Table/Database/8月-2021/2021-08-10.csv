@@ -1,0 +1,4 @@
+2021/8/10 9:24:30,【! 报警】,FTT下线站删除上线子表数据异常！,Ture,0,Outline_Station.vi:\NI_Database_API.lvlib:Conn Execute.vi->NI_Database_API.lvlib:DB Tools Delete Data.vi->DB Delect data(index).vi->Outline_Station.vi->Call Steps.vi->Main Panel.vi<ERR>ADO Error: 0x80040E31
+NI_Database_API.lvlib:Conn Execute.vi->NI_Database_API.lvlib:DB Tools Delete Data.vi->DB Delect data(index).vi->Outline_Station.vi->Call Steps.vi->Main Panel.vi中的Exception occured in Microsoft OLE DB Provider for ODBC Drivers: [Microsoft][ODBC SQL Server Driver]查询超时已过期
+2021/8/10 21:17:13,【! 报警】,JDP71ALWB55009902202108051528176：天窗上线成功！,Ture,0,Online_Station.vi:\数据存储异常！
+2021/8/10 21:28:51,【! 报警】,JDP71ALWB55009902202108091620150：天窗上线成功！,Ture,0,Online_Station.vi:\数据存储异常！

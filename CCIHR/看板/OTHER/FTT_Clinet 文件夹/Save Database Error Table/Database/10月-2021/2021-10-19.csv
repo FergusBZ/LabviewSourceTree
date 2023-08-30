@@ -1,0 +1,11 @@
+2021/10/19 2:50:17,【! 报警】,JDX760LWB55009903202110160900021：天窗上线成功！,Ture,0,Online_Station.vi:\数据存储异常！
+2021/10/19 19:49:28,【! 报警】,JDX760LWB55009903202110170817004：天窗上线成功！,Ture,0,Online_Station.vi:\数据存储异常！
+2021/10/19 19:57:28,【! 报警】,JDX760LWB55009903202110171012056：天窗上线成功！,Ture,0,Online_Station.vi:\数据存储异常！
+2021/10/19 22:48:58,【! 报警】,JDX260LWB55009975202109231353027：天窗上线成功！,Ture,0,Online_Station.vi:\数据存储异常！
+2021/10/19 23:28:04,【! 报警】,JDX260LWB55009975202110031615204：天窗上线成功！,Ture,0,Online_Station.vi:\数据存储异常！
+2021/10/19 23:46:24,【! 报警】,Outline_Station:SN-上线表数据不存在！,Ture,0,Outline_Station.vi:\NI_Database_API.lvlib:ADO Type and Dir to DB Tools.vi->NI_Database_API.lvlib:Rec Get Column Properties (R).vi->NI_Database_API.lvlib:DB Tools List Columns.vi->DB select data(index).vi->Outline_Station.vi->Call Steps.vi->Main Panel.vi<ERR>ADO Error: 0x000001F4
+Invalid type.  This data type is not directly supported by the database toolset and will be considered a String.
+2021/10/19 23:46:39,【! 报警】,JDX260LWB55009975202110031619206：天窗上线成功！,Ture,0,Online_Station.vi:\数据存储异常！
+2021/10/19 23:50:16,【! 报警】,Outline_Station:SN-上线表数据不存在！,Ture,0,Outline_Station.vi:\NI_Database_API.lvlib:ADO Type and Dir to DB Tools.vi->NI_Database_API.lvlib:Rec Get Column Properties (R).vi->NI_Database_API.lvlib:DB Tools List Columns.vi->DB select data(index).vi->Outline_Station.vi->Call Steps.vi->Main Panel.vi<ERR>ADO Error: 0x000001F4
+Invalid type.  This data type is not directly supported by the database toolset and will be considered a String.
+2021/10/19 23:52:56,【! 报警】,JDX260LWB55009975202110031802241：天窗上线成功！,Ture,0,Online_Station.vi:\数据存储异常！

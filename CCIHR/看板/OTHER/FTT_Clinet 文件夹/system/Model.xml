@@ -1,0 +1,12 @@
+<?xml version='1.0' standalone='yes' ?>
+<LVData xmlns="http://www.ni.com/LVData">
+<Version>16.0</Version>
+<Array>
+<Name>ArrayStr</Name>
+<Dimsize>1</Dimsize>
+<String>
+<Name>String</Name>
+<Val>P71A</Val>
+</String>
+</Array>
+</LVData>

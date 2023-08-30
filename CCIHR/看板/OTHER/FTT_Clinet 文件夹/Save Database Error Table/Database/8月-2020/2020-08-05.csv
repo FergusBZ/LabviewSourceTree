@@ -1,0 +1,5 @@
+2020/8/5 11:30:49,【×错误】,尾站FTT扫描枪扫码异常！,Ture,-1073807254,EndCheck Scan Code.vi:\Visa Read data.vi->EndCheck Scan Code.vi->Call Steps.vi->Main Panel.vi中的VISA读取
+2020/8/5 11:34:58,【×错误】,尾站FTT扫描枪扫码异常！,Ture,-1073807254,EndCheck Scan Code.vi:\Visa Read data.vi->EndCheck Scan Code.vi->Call Steps.vi->Main Panel.vi中的VISA读取
+2020/8/5 16:24:21,【! 报警】,JDX760LWB55009903202008021552017：天窗上线成功！,Ture,0,Online_Station.vi:\数据存储异常！
+2020/8/5 16:32:52,【! 报警】,JDX760LWB55009903202008041118063：天窗上线成功！,Ture,0,Online_Station.vi:\数据存储异常！
+2020/8/5 19:44:56,【! 报警】,JDX760LWB55009903202008041903272：天窗上线成功！,Ture,0,Online_Station.vi:\数据存储异常！

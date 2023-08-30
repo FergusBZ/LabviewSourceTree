@@ -1,0 +1,7 @@
+7/5/2020 12:20:00 AM,【! 报警】,Outline_Station:SN-00107052020上线表数据不存在！,Ture,0,Outline_Station.vi:\NI_Database_API.lvlib:ADO Type and Dir to DB Tools.vi->NI_Database_API.lvlib:Rec Get Column Properties (R).vi->NI_Database_API.lvlib:DB Tools List Columns.vi->DB select data(index).vi->Outline_Station.vi->Call Steps.vi->Main Panel.vi<ERR>ADO Error: 0x000001F4
+Invalid type.  This data type is not directly supported by the database toolset and will be considered a String.
+7/5/2020 12:20:52 AM,【×错误】,尾站FTT扫描枪扫码异常！,Ture,-1073807254,EndCheck Scan Code.vi:\Visa Read data.vi->EndCheck Scan Code.vi->Call Steps.vi->Main Panel.vi中的VISA读取
+7/5/2020 1:25:11 AM,【! 报警】,,Ture,0,Station_NG Station.vi:\NI_Database_API.lvlib:Conn Execute.vi->DB Select Data(count).vi->DB Delect data(index).vi->Station_NG Station.vi->Call Steps.vi->Main Panel.vi<ERR>ADO Error: 0x80040E14
+NI_Database_API.lvlib:Conn Execute.vi->DB Select Data(count).vi->DB Delect data(index).vi->Station_NG Station.vi->Call Steps.vi->Main Panel.vi中的Exception occured in Microsoft OLE DB Provider for ODBC Drivers: [Microsoft][ODBC SQL Server Driver][SQL Server]“Station”附近有语法错误。
+7/5/2020 3:53:56 AM,【×错误】,尾站FTT扫描枪扫码异常！,Ture,-1073807254,EndCheck Scan Code.vi:\Visa Read data.vi->EndCheck Scan Code.vi->Call Steps.vi->Main Panel.vi中的VISA读取
+7/5/2020 4:12:29 AM,【×错误】,尾站FTT扫描枪扫码异常！,Ture,-1073807254,EndCheck Scan Code.vi:\Visa Read data.vi->EndCheck Scan Code.vi->Call Steps.vi->Main Panel.vi中的VISA读取

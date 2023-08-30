@@ -1,0 +1,23 @@
+7/6/2020 8:21:41 AM,【! 报警】,Outline_Station:SN-00107062020上线表数据不存在！,Ture,0,Outline_Station.vi:\NI_Database_API.lvlib:ADO Type and Dir to DB Tools.vi->NI_Database_API.lvlib:Rec Get Column Properties (R).vi->NI_Database_API.lvlib:DB Tools List Columns.vi->DB select data(index).vi->Outline_Station.vi->Call Steps.vi->Main Panel.vi<ERR>ADO Error: 0x000001F4
+Invalid type.  This data type is not directly supported by the database toolset and will be considered a String.
+7/6/2020 8:36:17 AM,【! 报警】,上线SN:01807062020--->Frame:,Ture,0,Online_Station.vi:\框架号为空！
+7/6/2020 9:19:34 AM,【×错误】,尾站FTT扫描枪扫码异常！,Ture,-1073807254,EndCheck Scan Code.vi:\Visa Read data.vi->EndCheck Scan Code.vi->Call Steps.vi->Main Panel.vi中的VISA读取
+7/6/2020 12:23:00 PM,【! 报警】,,Ture,0,Query FTT Data.vi:\
+7/6/2020 2:51:58 PM,【! 报警】,FTT数据统计提交完成！,Ture,0,Product Romete Exchange.vi:\
+7/6/2020 2:52:58 PM,【! 报警】,FTT数据统计提交完成！,Ture,0,Product Romete Exchange.vi:\
+7/6/2020 2:53:58 PM,【! 报警】,FTT数据统计提交完成！,Ture,0,Product Romete Exchange.vi:\
+7/6/2020 2:54:58 PM,【! 报警】,FTT数据统计提交完成！,Ture,0,Product Romete Exchange.vi:\
+7/6/2020 2:55:58 PM,【! 报警】,FTT数据统计提交完成！,Ture,0,Product Romete Exchange.vi:\
+7/6/2020 2:56:59 PM,【! 报警】,FTT数据统计提交完成！,Ture,0,Product Romete Exchange.vi:\
+7/6/2020 2:57:59 PM,【! 报警】,FTT数据统计提交完成！,Ture,0,Product Romete Exchange.vi:\
+7/6/2020 2:58:59 PM,【! 报警】,FTT数据统计提交完成！,Ture,0,Product Romete Exchange.vi:\
+7/6/2020 2:59:59 PM,【! 报警】,FTT数据统计提交完成！,Ture,0,Product Romete Exchange.vi:\
+7/6/2020 3:00:59 PM,【! 报警】,FTT数据统计提交完成！,Ture,0,Product Romete Exchange.vi:\
+7/6/2020 3:02:00 PM,【! 报警】,FTT数据统计提交完成！,Ture,0,Product Romete Exchange.vi:\
+7/6/2020 3:03:00 PM,【! 报警】,FTT数据统计提交完成！,Ture,0,Product Romete Exchange.vi:\
+7/6/2020 3:04:00 PM,【! 报警】,FTT数据统计提交完成！,Ture,0,Product Romete Exchange.vi:\
+7/6/2020 3:05:00 PM,【! 报警】,FTT数据统计提交完成！,Ture,0,Product Romete Exchange.vi:\
+7/6/2020 3:06:00 PM,【! 报警】,FTT数据统计提交完成！,Ture,0,Product Romete Exchange.vi:\
+7/6/2020 3:07:00 PM,【! 报警】,FTT数据统计提交完成！,Ture,0,Product Romete Exchange.vi:\
+7/6/2020 3:08:00 PM,【! 报警】,FTT数据统计提交完成！,Ture,0,Product Romete Exchange.vi:\
+7/6/2020 3:09:00 PM,【! 报警】,FTT数据统计提交完成！,Ture,0,Product Romete Exchange.vi:\
