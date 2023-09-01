@@ -1,0 +1,28 @@
+
+****init****初始化基本参数
+****read incoming barcode****等待扫描来料条码
+****send query pulse****发送查询脉冲（PLC）
+****get part type****获取当前工位信息并校验
+****read barcode****等待扫描料车条码
+****code match****当前条码校验
+****read plate code****等待扫描托盘条码
+****write hopper car information to plc****料车信息发送至PLC
+****cutting****切割作业中
+****complete?****校验任务是否完成
+****save data****保存生产数据
+****database write****生产数据写入至本地
+****updata display****刷新界面显示
+****reset****复位状态
+****start heating****开始加热
+****read hopper out car code****等待扫描下料车条码
+****collecting data****收集PDF焊接数据
+****write data to plc****写入当前数据至PLC
+****matching curing time****固化时间校验
+****get ser number from sql****从数据库获取当前流水号
+****print OKbarcode****打印OK条码
+****print NGbarcode****打印NG条码
+****wait EOL finish****等待EOL工位完成信号
+****get data from plc****从PLC获取生产参数
+****save to sql****保存数据至数据库
+****print last table****打印上次标签
+****check EOL signal****等待EOL信号
