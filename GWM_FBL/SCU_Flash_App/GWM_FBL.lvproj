@@ -14,20 +14,6 @@
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="依赖关系" Type="Dependencies">
-			<Item Name="user.lib" Type="Folder">
-				<Item Name="17x AP Data Type.ctl" Type="VI" URL="/&lt;userlib&gt;/type defs/17x AP Data Type.ctl"/>
-				<Item Name="17x Motor Mode Control.ctl" Type="VI" URL="/&lt;userlib&gt;/type defs/17x Motor Mode Control.ctl"/>
-				<Item Name="EOL CAN_Check Incoming Rx Length.vi" Type="VI" URL="/&lt;userlib&gt;/Communication VI&apos;s/CAN Communication VI&apos;s/EOL CAN_Check Incoming Rx Length.vi"/>
-				<Item Name="EOL CAN_Get Multi Rx.vi" Type="VI" URL="/&lt;userlib&gt;/Communication VI&apos;s/CAN Communication VI&apos;s/EOL CAN_Get Multi Rx.vi"/>
-				<Item Name="EOL CAN_Get Seed and Key.vi" Type="VI" URL="/&lt;userlib&gt;/Communication VI&apos;s/CAN Communication VI&apos;s/EOL CAN_Get Seed and Key.vi"/>
-				<Item Name="EOL CAN_Send_Single_Message.vi" Type="VI" URL="/&lt;userlib&gt;/Communication VI&apos;s/CAN Communication VI&apos;s/EOL CAN_Send_Single_Message.vi"/>
-				<Item Name="EOL CAN_Send_Single_Message_3.vi" Type="VI" URL="/&lt;userlib&gt;/Communication VI&apos;s/CAN Communication VI&apos;s/EOL CAN_Send_Single_Message_3.vi"/>
-				<Item Name="EOL CAN_Send_Two_Part_Message (2).vi" Type="VI" URL="/&lt;userlib&gt;/Communication VI&apos;s/CAN Communication VI&apos;s/EOL CAN_Send_Two_Part_Message (2).vi"/>
-				<Item Name="EOL CAN_Send_Two_Part_Message.vi" Type="VI" URL="/&lt;userlib&gt;/Communication VI&apos;s/CAN Communication VI&apos;s/EOL CAN_Send_Two_Part_Message.vi"/>
-				<Item Name="Get Next Event 1.1.vi" Type="VI" URL="/&lt;userlib&gt;/State Machine VI&apos;s/Get Next Event 1.1.vi"/>
-				<Item Name="Get Next Event.vi" Type="VI" URL="/&lt;userlib&gt;/State Machine VI&apos;s/Get Next Event.vi"/>
-				<Item Name="make tester present frame.vi" Type="VI" URL="/&lt;userlib&gt;/Communication VI&apos;s/CAN Communication VI&apos;s/make tester present frame.vi"/>
-			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
 				<Item Name="_XNET Convert List From Array To Comma.vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/_XNET Convert List From Array To Comma.vi"/>
@@ -53,7 +39,6 @@
 				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
 				<Item Name="ErrWarn.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/ErrWarn.ctl"/>
 				<Item Name="eventvkey.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/eventvkey.ctl"/>
-				<Item Name="ex_CorrectErrorChain.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_CorrectErrorChain.vi"/>
 				<Item Name="Find First Error.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find First Error.vi"/>
 				<Item Name="Find Tag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find Tag.vi"/>
 				<Item Name="Format Message String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Format Message String.vi"/>
@@ -66,14 +51,12 @@
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
-				<Item Name="LVRowAndColumnUnsignedTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRowAndColumnUnsignedTypeDef.ctl"/>
 				<Item Name="ncGetAttr.vi" Type="VI" URL="/&lt;vilib&gt;/nican/nican.llb/ncGetAttr.vi"/>
 				<Item Name="ncReadNetMult.vi" Type="VI" URL="/&lt;vilib&gt;/nican/nican.llb/ncReadNetMult.vi"/>
 				<Item Name="ncWriteNet.vi" Type="VI" URL="/&lt;vilib&gt;/nican/nican.llb/ncWriteNet.vi"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
-				<Item Name="NI_XML.lvlib" Type="Library" URL="/&lt;vilib&gt;/xml/NI_XML.lvlib"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
 				<Item Name="Open File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Open File+.vi"/>
 				<Item Name="Read Characters From File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Characters From File.vi"/>
@@ -95,10 +78,7 @@
 				<Item Name="Set Cursor (Icon Pict).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Cursor (Icon Pict).vi"/>
 				<Item Name="Set Cursor.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Cursor.vi"/>
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
-				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
-				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
-				<Item Name="subTimeDelay.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/TimeDelayBlock.llb/subTimeDelay.vi"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
@@ -114,7 +94,6 @@
 				<Item Name="XNET CAN Comm State.ctl" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET CAN Comm State.ctl"/>
 				<Item Name="XNET CAN Comm.ctl" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET CAN Comm.ctl"/>
 				<Item Name="XNET CAN Last Err.ctl" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET CAN Last Err.ctl"/>
-				<Item Name="XNET Clear.vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Clear.vi"/>
 				<Item Name="XNET Control Scope.ctl" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Control Scope.ctl"/>
 				<Item Name="XNET Create Session (Conversion).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Create Session (Conversion).vi"/>
 				<Item Name="XNET Create Session (Frame Input Queued).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Create Session (Frame Input Queued).vi"/>
@@ -147,7 +126,6 @@
 				<Item Name="XNET Database Create (Signal).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Database Create (Signal).vi"/>
 				<Item Name="XNET Database Create (Subframe).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Database Create (Subframe).vi"/>
 				<Item Name="XNET Database Create Object.vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Database Create Object.vi"/>
-				<Item Name="XNET Database Deploy.vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Database Deploy.vi"/>
 				<Item Name="XNET Database Get List.vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Database Get List.vi"/>
 				<Item Name="XNET Database Merge (Cluster).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Database Merge (Cluster).vi"/>
 				<Item Name="XNET Database Merge (ECU).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Database Merge (ECU).vi"/>
@@ -192,7 +170,6 @@
 				<Item Name="XNET Read.vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Read.vi"/>
 				<Item Name="XNET Session Info State.ctl" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Session Info State.ctl"/>
 				<Item Name="XNET Start.vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Start.vi"/>
-				<Item Name="XNET Stop.vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Stop.vi"/>
 				<Item Name="XNET Wait (CAN Remote Wakeup).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Wait (CAN Remote Wakeup).vi"/>
 				<Item Name="XNET Wait (Interface Communicating).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Wait (Interface Communicating).vi"/>
 				<Item Name="XNET Wait (LIN Remote Wakeup).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Wait (LIN Remote Wakeup).vi"/>
@@ -211,40 +188,6 @@
 				<Item Name="XNET Write.vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Write.vi"/>
 				<Item Name="xobjhandle.ctl" Type="VI" URL="/&lt;vilib&gt;/nican/nican.llb/xobjhandle.ctl"/>
 			</Item>
-			<Item Name="All Motions.ctl" Type="VI" URL="../CAN Communication VI&apos;s/Typedefs/All Motions.ctl"/>
-			<Item Name="All Motions.ctl" Type="VI" URL="../../../../../../LabVIEW Code/Type Def&apos;s/All Motions.ctl"/>
-			<Item Name="All screw data buffer.vi" Type="VI" URL="../Atlas Screw/All screw data buffer.vi"/>
-			<Item Name="DataSocket_Tags.ctl" Type="VI" URL="../Sub&apos;VIs/DataSocket/Crl defs/DataSocket_Tags.ctl"/>
-			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
-			<Item Name="EOL CAN_Check Calibration status.vi" Type="VI" URL="../CAN Communication VI&apos;s/CAN Communication VI&apos;s/EOL CAN_Check Calibration status.vi"/>
-			<Item Name="EOL CAN_Clear_DTC&apos;s.vi" Type="VI" URL="../CAN Communication VI&apos;s/CAN Communication VI&apos;s/EOL CAN_Clear_DTC&apos;s.vi"/>
-			<Item Name="EOL CAN_Disable_Parametric_Mode.vi" Type="VI" URL="../CAN Communication VI&apos;s/CAN Communication VI&apos;s/EOL CAN_Disable_Parametric_Mode.vi"/>
-			<Item Name="EOL CAN_Disable_Production_Mode.vi" Type="VI" URL="../CAN Communication VI&apos;s/CAN Communication VI&apos;s/EOL CAN_Disable_Production_Mode.vi"/>
-			<Item Name="EOL CAN_Download CAL.vi" Type="VI" URL="../CAN Communication VI&apos;s/CAN Communication VI&apos;s/EOL CAN_Download CAL.vi"/>
-			<Item Name="EOL CAN_Enable_Parametric_Mode.vi" Type="VI" URL="../CAN Communication VI&apos;s/CAN Communication VI&apos;s/EOL CAN_Enable_Parametric_Mode.vi"/>
-			<Item Name="EOL CAN_Enable_Production_Mode.vi" Type="VI" URL="../CAN Communication VI&apos;s/CAN Communication VI&apos;s/EOL CAN_Enable_Production_Mode.vi"/>
-			<Item Name="EOL CAN_Enter Diag Session.vi" Type="VI" URL="../CAN Communication VI&apos;s/CAN Communication VI&apos;s/EOL CAN_Enter Diag Session.vi"/>
-			<Item Name="EOL CAN_Get Vehicle type.vi" Type="VI" URL="../CAN Communication VI&apos;s/CAN Communication VI&apos;s/EOL CAN_Get Vehicle type.vi"/>
-			<Item Name="EOL CAN_Get_Motor Part Number.vi" Type="VI" URL="../CAN Communication VI&apos;s/CAN Communication VI&apos;s/EOL CAN_Get_Motor Part Number.vi"/>
-			<Item Name="EOL CAN_Get_Motor_SW_CAL_Boot_Level.vi" Type="VI" URL="../CAN Communication VI&apos;s/CAN Communication VI&apos;s/EOL CAN_Get_Motor_SW_CAL_Boot_Level.vi"/>
-			<Item Name="EOL CAN_Go to Position.vi" Type="VI" URL="../CAN Communication VI&apos;s/CAN Communication VI&apos;s/EOL CAN_Go to Position.vi"/>
-			<Item Name="EOL CAN_Read HW level.vi" Type="VI" URL="../CAN Communication VI&apos;s/CAN Communication VI&apos;s/EOL CAN_Read HW level.vi"/>
-			<Item Name="EOL CAN_Read SW level.vi" Type="VI" URL="../CAN Communication VI&apos;s/CAN Communication VI&apos;s/EOL CAN_Read SW level.vi"/>
-			<Item Name="EOL CAN_Reset ECU.vi" Type="VI" URL="../CAN Communication VI&apos;s/CAN Communication VI&apos;s/EOL CAN_Reset ECU.vi"/>
-			<Item Name="EOL CAN_Send_Single_Message.vi" Type="VI" URL="../CAN Communication VI&apos;s/CAN Communication VI&apos;s/EOL CAN_Send_Single_Message.vi"/>
-			<Item Name="EOL CAN_Send_Two_Part_Message.vi" Type="VI" URL="../CAN Communication VI&apos;s/CAN Communication VI&apos;s/EOL CAN_Send_Two_Part_Message.vi"/>
-			<Item Name="EOL CAN_Start_Teach.vi" Type="VI" URL="../CAN Communication VI&apos;s/CAN Communication VI&apos;s/EOL CAN_Start_Teach.vi"/>
-			<Item Name="EOL CAN_Target Motion.vi" Type="VI" URL="../CAN Communication VI&apos;s/CAN Communication VI&apos;s/EOL CAN_Target Motion.vi"/>
-			<Item Name="EOL CAN_Write Repair Shop Code.vi" Type="VI" URL="../CAN Communication VI&apos;s/CAN Communication VI&apos;s/EOL CAN_Write Repair Shop Code.vi"/>
-			<Item Name="EOL CAN_Write Vehicle Type.vi" Type="VI" URL="../CAN Communication VI&apos;s/CAN Communication VI&apos;s/EOL CAN_Write Vehicle Type.vi"/>
-			<Item Name="Get DataSocket Tags.vi" Type="VI" URL="../Sub&apos;VIs/DataSocket/Get DataSocket Tags.vi"/>
-			<Item Name="Get Next Event 1.1.vi" Type="VI" URL="../Get Next Event 1.1.vi"/>
-			<Item Name="HomeScreen.ctl" Type="VI" URL="../Interface/Crl defs/HomeScreen.ctl"/>
-			<Item Name="HomeScreens.ctl" Type="VI" URL="../Interface/Crl defs/HomeScreens.ctl"/>
-			<Item Name="Insert Multiple Events.vi" Type="VI" URL="../intrathread comms/Insert Multiple Events.vi"/>
-			<Item Name="motor operating data.ctl" Type="VI" URL="../Crl defs/motor operating data.ctl"/>
 			<Item Name="ncvi.dll" Type="Document" URL="ncvi.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -254,11 +197,6 @@
 			<Item Name="nixlvapi.dll" Type="Document" URL="nixlvapi.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="print config.ctl" Type="VI" URL="../Sub&apos;VIs/Communication connection/Crl defs/print config.ctl"/>
-			<Item Name="scanner config.ctl" Type="VI" URL="../Sub&apos;VIs/Communication connection/Crl defs/scanner config.ctl"/>
-			<Item Name="Select Session.ctl" Type="VI" URL="../CAN Communication VI&apos;s/CAN Communication VI&apos;s/Typedefs/Select Session.ctl"/>
-			<Item Name="StatusBars.ctl" Type="VI" URL="../Interface/Crl defs/StatusBars.ctl"/>
-			<Item Name="SunshadeCode and Color set.vi" Type="VI" URL="../Sub&apos;VIs/SunshadeCode and Color set/SunshadeCode and Color set.vi"/>
 		</Item>
 		<Item Name="程序生成规范" Type="Build"/>
 	</Item>
