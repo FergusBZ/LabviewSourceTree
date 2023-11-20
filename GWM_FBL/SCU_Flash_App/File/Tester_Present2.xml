@@ -16,22 +16,28 @@
           <fx:CHANNEL-REF ID-REF="channel1"/>
         </fx:CHANNEL-REFS>
         <fx:MEDIUM>ELECTRICAL</fx:MEDIUM>
+        <fx:MANUFACTURER-EXTENSION>
+          <ni:NI-XNET-EXTENSION>
+            <ni:CAN-FD-MODE>2</ni:CAN-FD-MODE>
+            <ni:CAN-FD-SPEED>2000000</ni:CAN-FD-SPEED>
+          </ni:NI-XNET-EXTENSION>
+        </fx:MANUFACTURER-EXTENSION>
       </fx:CLUSTER>
     </fx:CLUSTERS>
     <fx:CHANNELS>
       <fx:CHANNEL ID="channel1">
         <ho:SHORT-NAME>Channel1</ho:SHORT-NAME>
         <fx:PDU-TRIGGERINGS>
-        <fx:PDU-TRIGGERING ID="pdutrg1">
-          <fx:TIMINGS>
-            <fx:CYCLIC-TIMING>
-              <fx:REPEATING-TIME-RANGE>
-                <fx:VALUE>PT0.20000000S</fx:VALUE>
-              </fx:REPEATING-TIME-RANGE>
-            </fx:CYCLIC-TIMING>
-          </fx:TIMINGS>
-          <fx:PDU-REF ID-REF="pdu1"/>
-        </fx:PDU-TRIGGERING>
+          <fx:PDU-TRIGGERING ID="pdutrg1">
+            <fx:TIMINGS>
+              <fx:CYCLIC-TIMING>
+                <fx:REPEATING-TIME-RANGE>
+                  <fx:VALUE>PT0.20000000S</fx:VALUE>
+                </fx:REPEATING-TIME-RANGE>
+              </fx:CYCLIC-TIMING>
+            </fx:TIMINGS>
+            <fx:PDU-REF ID-REF="pdu1"/>
+          </fx:PDU-TRIGGERING>
         </fx:PDU-TRIGGERINGS>
         <fx:FRAME-TRIGGERINGS>
           <fx:FRAME-TRIGGERING ID="trig1">
@@ -54,7 +60,7 @@
           </fx:FRAME-TRIGGERING>
           <fx:FRAME-TRIGGERING ID="trig2">
             <fx:IDENTIFIER>
-              <fx:IDENTIFIER-VALUE>1520</fx:IDENTIFIER-VALUE>
+              <fx:IDENTIFIER-VALUE xsi:type="can:IDENTIFIER-VALUE-TYPE" EXTENDED-ADDRESSING="true">452984971</fx:IDENTIFIER-VALUE>
             </fx:IDENTIFIER>
             <fx:FRAME-REF ID-REF="frm2"/>
             <fx:MANUFACTURER-EXTENSION>
@@ -72,20 +78,9 @@
           </fx:FRAME-TRIGGERING>
           <fx:FRAME-TRIGGERING ID="trig3">
             <fx:IDENTIFIER>
-              <fx:IDENTIFIER-VALUE>1440</fx:IDENTIFIER-VALUE>
+              <fx:IDENTIFIER-VALUE>1714</fx:IDENTIFIER-VALUE>
             </fx:IDENTIFIER>
             <fx:FRAME-REF ID-REF="frm3"/>
-            <fx:MANUFACTURER-EXTENSION>
-              <ni:NI-XNET-EXTENSION>
-                <ni:CAN-FD-MODE>0</ni:CAN-FD-MODE>
-              </ni:NI-XNET-EXTENSION>
-            </fx:MANUFACTURER-EXTENSION>
-          </fx:FRAME-TRIGGERING>
-          <fx:FRAME-TRIGGERING ID="trig4">
-            <fx:IDENTIFIER>
-              <fx:IDENTIFIER-VALUE>1432</fx:IDENTIFIER-VALUE>
-            </fx:IDENTIFIER>
-            <fx:FRAME-REF ID-REF="frm4"/>
             <fx:MANUFACTURER-EXTENSION>
               <ni:NI-XNET-EXTENSION>
                 <ni:CAN-FD-MODE>0</ni:CAN-FD-MODE>
@@ -99,47 +94,29 @@
               </ni:NI-XNET-EXTENSION>
             </fx:MANUFACTURER-EXTENSION>
           </fx:FRAME-TRIGGERING>
+          <fx:FRAME-TRIGGERING ID="trig4">
+            <fx:IDENTIFIER>
+              <fx:IDENTIFIER-VALUE>253</fx:IDENTIFIER-VALUE>
+            </fx:IDENTIFIER>
+            <fx:FRAME-REF ID-REF="frm4"/>
+            <fx:MANUFACTURER-EXTENSION>
+              <ni:NI-XNET-EXTENSION>
+                <ni:CAN-FD-MODE>0</ni:CAN-FD-MODE>
+                <fx:TIMINGS>
+                  <fx:CYCLIC-TIMING>
+                    <fx:REPEATING-TIME-RANGE>
+                      <fx:VALUE>PT0.02000000S</fx:VALUE>
+                    </fx:REPEATING-TIME-RANGE>
+                  </fx:CYCLIC-TIMING>
+                </fx:TIMINGS>
+              </ni:NI-XNET-EXTENSION>
+            </fx:MANUFACTURER-EXTENSION>
+          </fx:FRAME-TRIGGERING>
           <fx:FRAME-TRIGGERING ID="trig5">
             <fx:IDENTIFIER>
-              <fx:IDENTIFIER-VALUE xsi:type="can:IDENTIFIER-VALUE-TYPE" EXTENDED-ADDRESSING="true">452984846</fx:IDENTIFIER-VALUE>
+              <fx:IDENTIFIER-VALUE>508</fx:IDENTIFIER-VALUE>
             </fx:IDENTIFIER>
             <fx:FRAME-REF ID-REF="frm5"/>
-            <fx:MANUFACTURER-EXTENSION>
-              <ni:NI-XNET-EXTENSION>
-                <ni:CAN-FD-MODE>0</ni:CAN-FD-MODE>
-                <fx:TIMINGS>
-                  <fx:CYCLIC-TIMING>
-                    <fx:REPEATING-TIME-RANGE>
-                      <fx:VALUE>PT0.20000000S</fx:VALUE>
-                    </fx:REPEATING-TIME-RANGE>
-                  </fx:CYCLIC-TIMING>
-                </fx:TIMINGS>
-              </ni:NI-XNET-EXTENSION>
-            </fx:MANUFACTURER-EXTENSION>
-          </fx:FRAME-TRIGGERING>
-          <fx:FRAME-TRIGGERING ID="trig6">
-            <fx:IDENTIFIER>
-              <fx:IDENTIFIER-VALUE>672</fx:IDENTIFIER-VALUE>
-            </fx:IDENTIFIER>
-            <fx:FRAME-REF ID-REF="frm6"/>
-            <fx:MANUFACTURER-EXTENSION>
-              <ni:NI-XNET-EXTENSION>
-                <ni:CAN-FD-MODE>0</ni:CAN-FD-MODE>
-                <fx:TIMINGS>
-                  <fx:CYCLIC-TIMING>
-                    <fx:REPEATING-TIME-RANGE>
-                      <fx:VALUE>PT0.20000000S</fx:VALUE>
-                    </fx:REPEATING-TIME-RANGE>
-                  </fx:CYCLIC-TIMING>
-                </fx:TIMINGS>
-              </ni:NI-XNET-EXTENSION>
-            </fx:MANUFACTURER-EXTENSION>
-          </fx:FRAME-TRIGGERING>
-          <fx:FRAME-TRIGGERING ID="trig7">
-            <fx:IDENTIFIER>
-              <fx:IDENTIFIER-VALUE>960</fx:IDENTIFIER-VALUE>
-            </fx:IDENTIFIER>
-            <fx:FRAME-REF ID-REF="frm7"/>
             <fx:MANUFACTURER-EXTENSION>
               <ni:NI-XNET-EXTENSION>
                 <ni:CAN-FD-MODE>0</ni:CAN-FD-MODE>
@@ -153,9 +130,45 @@
               </ni:NI-XNET-EXTENSION>
             </fx:MANUFACTURER-EXTENSION>
           </fx:FRAME-TRIGGERING>
+          <fx:FRAME-TRIGGERING ID="trig6">
+            <fx:IDENTIFIER>
+              <fx:IDENTIFIER-VALUE>1646</fx:IDENTIFIER-VALUE>
+            </fx:IDENTIFIER>
+            <fx:FRAME-REF ID-REF="frm6"/>
+            <fx:MANUFACTURER-EXTENSION>
+              <ni:NI-XNET-EXTENSION>
+                <ni:CAN-FD-MODE>0</ni:CAN-FD-MODE>
+                <fx:TIMINGS>
+                  <fx:CYCLIC-TIMING>
+                    <fx:REPEATING-TIME-RANGE>
+                      <fx:VALUE>PT2.000000S</fx:VALUE>
+                    </fx:REPEATING-TIME-RANGE>
+                  </fx:CYCLIC-TIMING>
+                </fx:TIMINGS>
+              </ni:NI-XNET-EXTENSION>
+            </fx:MANUFACTURER-EXTENSION>
+          </fx:FRAME-TRIGGERING>
+          <fx:FRAME-TRIGGERING ID="trig7">
+            <fx:IDENTIFIER>
+              <fx:IDENTIFIER-VALUE>1719</fx:IDENTIFIER-VALUE>
+            </fx:IDENTIFIER>
+            <fx:FRAME-REF ID-REF="frm7"/>
+            <fx:MANUFACTURER-EXTENSION>
+              <ni:NI-XNET-EXTENSION>
+                <ni:CAN-FD-MODE>0</ni:CAN-FD-MODE>
+                <fx:TIMINGS>
+                  <fx:CYCLIC-TIMING>
+                    <fx:REPEATING-TIME-RANGE>
+                      <fx:VALUE>PT1.000000S</fx:VALUE>
+                    </fx:REPEATING-TIME-RANGE>
+                  </fx:CYCLIC-TIMING>
+                </fx:TIMINGS>
+              </ni:NI-XNET-EXTENSION>
+            </fx:MANUFACTURER-EXTENSION>
+          </fx:FRAME-TRIGGERING>
           <fx:FRAME-TRIGGERING ID="trig8">
             <fx:IDENTIFIER>
-              <fx:IDENTIFIER-VALUE>1716</fx:IDENTIFIER-VALUE>
+              <fx:IDENTIFIER-VALUE>958</fx:IDENTIFIER-VALUE>
             </fx:IDENTIFIER>
             <fx:FRAME-REF ID-REF="frm8"/>
             <fx:MANUFACTURER-EXTENSION>
@@ -164,7 +177,7 @@
                 <fx:TIMINGS>
                   <fx:CYCLIC-TIMING>
                     <fx:REPEATING-TIME-RANGE>
-                      <fx:VALUE>PT0.20000000S</fx:VALUE>
+                      <fx:VALUE>PT0.10000000S</fx:VALUE>
                     </fx:REPEATING-TIME-RANGE>
                   </fx:CYCLIC-TIMING>
                 </fx:TIMINGS>
@@ -173,7 +186,7 @@
           </fx:FRAME-TRIGGERING>
           <fx:FRAME-TRIGGERING ID="trig9">
             <fx:IDENTIFIER>
-              <fx:IDENTIFIER-VALUE>1411</fx:IDENTIFIER-VALUE>
+              <fx:IDENTIFIER-VALUE>1635</fx:IDENTIFIER-VALUE>
             </fx:IDENTIFIER>
             <fx:FRAME-REF ID-REF="frm9"/>
             <fx:MANUFACTURER-EXTENSION>
@@ -182,7 +195,7 @@
                 <fx:TIMINGS>
                   <fx:CYCLIC-TIMING>
                     <fx:REPEATING-TIME-RANGE>
-                      <fx:VALUE>PT0.20000000S</fx:VALUE>
+                      <fx:VALUE>PT0.10000000S</fx:VALUE>
                     </fx:REPEATING-TIME-RANGE>
                   </fx:CYCLIC-TIMING>
                 </fx:TIMINGS>
@@ -191,7 +204,7 @@
           </fx:FRAME-TRIGGERING>
           <fx:FRAME-TRIGGERING ID="trig10">
             <fx:IDENTIFIER>
-              <fx:IDENTIFIER-VALUE xsi:type="can:IDENTIFIER-VALUE-TYPE" EXTENDED-ADDRESSING="true">452984971</fx:IDENTIFIER-VALUE>
+              <fx:IDENTIFIER-VALUE>319</fx:IDENTIFIER-VALUE>
             </fx:IDENTIFIER>
             <fx:FRAME-REF ID-REF="frm10"/>
             <fx:MANUFACTURER-EXTENSION>
@@ -209,7 +222,7 @@
           </fx:FRAME-TRIGGERING>
           <fx:FRAME-TRIGGERING ID="trig11">
             <fx:IDENTIFIER>
-              <fx:IDENTIFIER-VALUE>1714</fx:IDENTIFIER-VALUE>
+              <fx:IDENTIFIER-VALUE>1616</fx:IDENTIFIER-VALUE>
             </fx:IDENTIFIER>
             <fx:FRAME-REF ID-REF="frm11"/>
             <fx:MANUFACTURER-EXTENSION>
@@ -227,7 +240,7 @@
           </fx:FRAME-TRIGGERING>
           <fx:FRAME-TRIGGERING ID="trig12">
             <fx:IDENTIFIER>
-              <fx:IDENTIFIER-VALUE>253</fx:IDENTIFIER-VALUE>
+              <fx:IDENTIFIER-VALUE>1520</fx:IDENTIFIER-VALUE>
             </fx:IDENTIFIER>
             <fx:FRAME-REF ID-REF="frm12"/>
             <fx:MANUFACTURER-EXTENSION>
@@ -236,7 +249,7 @@
                 <fx:TIMINGS>
                   <fx:CYCLIC-TIMING>
                     <fx:REPEATING-TIME-RANGE>
-                      <fx:VALUE>PT0.02000000S</fx:VALUE>
+                      <fx:VALUE>PT0.20000000S</fx:VALUE>
                     </fx:REPEATING-TIME-RANGE>
                   </fx:CYCLIC-TIMING>
                 </fx:TIMINGS>
@@ -245,45 +258,9 @@
           </fx:FRAME-TRIGGERING>
           <fx:FRAME-TRIGGERING ID="trig13">
             <fx:IDENTIFIER>
-              <fx:IDENTIFIER-VALUE>508</fx:IDENTIFIER-VALUE>
+              <fx:IDENTIFIER-VALUE>1413</fx:IDENTIFIER-VALUE>
             </fx:IDENTIFIER>
             <fx:FRAME-REF ID-REF="frm13"/>
-            <fx:MANUFACTURER-EXTENSION>
-              <ni:NI-XNET-EXTENSION>
-                <ni:CAN-FD-MODE>0</ni:CAN-FD-MODE>
-                <fx:TIMINGS>
-                  <fx:CYCLIC-TIMING>
-                    <fx:REPEATING-TIME-RANGE>
-                      <fx:VALUE>PT0.10000000S</fx:VALUE>
-                    </fx:REPEATING-TIME-RANGE>
-                  </fx:CYCLIC-TIMING>
-                </fx:TIMINGS>
-              </ni:NI-XNET-EXTENSION>
-            </fx:MANUFACTURER-EXTENSION>
-          </fx:FRAME-TRIGGERING>
-          <fx:FRAME-TRIGGERING ID="trig14">
-            <fx:IDENTIFIER>
-              <fx:IDENTIFIER-VALUE>1646</fx:IDENTIFIER-VALUE>
-            </fx:IDENTIFIER>
-            <fx:FRAME-REF ID-REF="frm14"/>
-            <fx:MANUFACTURER-EXTENSION>
-              <ni:NI-XNET-EXTENSION>
-                <ni:CAN-FD-MODE>0</ni:CAN-FD-MODE>
-                <fx:TIMINGS>
-                  <fx:CYCLIC-TIMING>
-                    <fx:REPEATING-TIME-RANGE>
-                      <fx:VALUE>PT2.000000S</fx:VALUE>
-                    </fx:REPEATING-TIME-RANGE>
-                  </fx:CYCLIC-TIMING>
-                </fx:TIMINGS>
-              </ni:NI-XNET-EXTENSION>
-            </fx:MANUFACTURER-EXTENSION>
-          </fx:FRAME-TRIGGERING>
-          <fx:FRAME-TRIGGERING ID="trig15">
-            <fx:IDENTIFIER>
-              <fx:IDENTIFIER-VALUE>1719</fx:IDENTIFIER-VALUE>
-            </fx:IDENTIFIER>
-            <fx:FRAME-REF ID-REF="frm15"/>
             <fx:MANUFACTURER-EXTENSION>
               <ni:NI-XNET-EXTENSION>
                 <ni:CAN-FD-MODE>0</ni:CAN-FD-MODE>
@@ -297,9 +274,45 @@
               </ni:NI-XNET-EXTENSION>
             </fx:MANUFACTURER-EXTENSION>
           </fx:FRAME-TRIGGERING>
+          <fx:FRAME-TRIGGERING ID="trig14">
+            <fx:IDENTIFIER>
+              <fx:IDENTIFIER-VALUE>1462</fx:IDENTIFIER-VALUE>
+            </fx:IDENTIFIER>
+            <fx:FRAME-REF ID-REF="frm14"/>
+            <fx:MANUFACTURER-EXTENSION>
+              <ni:NI-XNET-EXTENSION>
+                <ni:CAN-FD-MODE>0</ni:CAN-FD-MODE>
+                <fx:TIMINGS>
+                  <fx:CYCLIC-TIMING>
+                    <fx:REPEATING-TIME-RANGE>
+                      <fx:VALUE>PT1.000000S</fx:VALUE>
+                    </fx:REPEATING-TIME-RANGE>
+                  </fx:CYCLIC-TIMING>
+                </fx:TIMINGS>
+              </ni:NI-XNET-EXTENSION>
+            </fx:MANUFACTURER-EXTENSION>
+          </fx:FRAME-TRIGGERING>
+          <fx:FRAME-TRIGGERING ID="trig15">
+            <fx:IDENTIFIER>
+              <fx:IDENTIFIER-VALUE xsi:type="can:IDENTIFIER-VALUE-TYPE" EXTENDED-ADDRESSING="true">452984848</fx:IDENTIFIER-VALUE>
+            </fx:IDENTIFIER>
+            <fx:FRAME-REF ID-REF="frm15"/>
+            <fx:MANUFACTURER-EXTENSION>
+              <ni:NI-XNET-EXTENSION>
+                <ni:CAN-FD-MODE>0</ni:CAN-FD-MODE>
+                <fx:TIMINGS>
+                  <fx:CYCLIC-TIMING>
+                    <fx:REPEATING-TIME-RANGE>
+                      <fx:VALUE>PT0.20000000S</fx:VALUE>
+                    </fx:REPEATING-TIME-RANGE>
+                  </fx:CYCLIC-TIMING>
+                </fx:TIMINGS>
+              </ni:NI-XNET-EXTENSION>
+            </fx:MANUFACTURER-EXTENSION>
+          </fx:FRAME-TRIGGERING>
           <fx:FRAME-TRIGGERING ID="trig16">
             <fx:IDENTIFIER>
-              <fx:IDENTIFIER-VALUE>958</fx:IDENTIFIER-VALUE>
+              <fx:IDENTIFIER-VALUE>976</fx:IDENTIFIER-VALUE>
             </fx:IDENTIFIER>
             <fx:FRAME-REF ID-REF="frm16"/>
             <fx:MANUFACTURER-EXTENSION>
@@ -317,7 +330,7 @@
           </fx:FRAME-TRIGGERING>
           <fx:FRAME-TRIGGERING ID="trig17">
             <fx:IDENTIFIER>
-              <fx:IDENTIFIER-VALUE>1635</fx:IDENTIFIER-VALUE>
+              <fx:IDENTIFIER-VALUE>974</fx:IDENTIFIER-VALUE>
             </fx:IDENTIFIER>
             <fx:FRAME-REF ID-REF="frm17"/>
             <fx:MANUFACTURER-EXTENSION>
@@ -335,7 +348,7 @@
           </fx:FRAME-TRIGGERING>
           <fx:FRAME-TRIGGERING ID="trig18">
             <fx:IDENTIFIER>
-              <fx:IDENTIFIER-VALUE>319</fx:IDENTIFIER-VALUE>
+              <fx:IDENTIFIER-VALUE xsi:type="can:IDENTIFIER-VALUE-TYPE" EXTENDED-ADDRESSING="true">452984906</fx:IDENTIFIER-VALUE>
             </fx:IDENTIFIER>
             <fx:FRAME-REF ID-REF="frm18"/>
             <fx:MANUFACTURER-EXTENSION>
@@ -353,7 +366,7 @@
           </fx:FRAME-TRIGGERING>
           <fx:FRAME-TRIGGERING ID="trig19">
             <fx:IDENTIFIER>
-              <fx:IDENTIFIER-VALUE>1616</fx:IDENTIFIER-VALUE>
+              <fx:IDENTIFIER-VALUE>977</fx:IDENTIFIER-VALUE>
             </fx:IDENTIFIER>
             <fx:FRAME-REF ID-REF="frm19"/>
             <fx:MANUFACTURER-EXTENSION>
@@ -362,7 +375,7 @@
                 <fx:TIMINGS>
                   <fx:CYCLIC-TIMING>
                     <fx:REPEATING-TIME-RANGE>
-                      <fx:VALUE>PT1.000000S</fx:VALUE>
+                      <fx:VALUE>PT0.10000000S</fx:VALUE>
                     </fx:REPEATING-TIME-RANGE>
                   </fx:CYCLIC-TIMING>
                 </fx:TIMINGS>
@@ -371,7 +384,7 @@
           </fx:FRAME-TRIGGERING>
           <fx:FRAME-TRIGGERING ID="trig20">
             <fx:IDENTIFIER>
-              <fx:IDENTIFIER-VALUE>1413</fx:IDENTIFIER-VALUE>
+              <fx:IDENTIFIER-VALUE>975</fx:IDENTIFIER-VALUE>
             </fx:IDENTIFIER>
             <fx:FRAME-REF ID-REF="frm20"/>
             <fx:MANUFACTURER-EXTENSION>
@@ -380,7 +393,7 @@
                 <fx:TIMINGS>
                   <fx:CYCLIC-TIMING>
                     <fx:REPEATING-TIME-RANGE>
-                      <fx:VALUE>PT1.000000S</fx:VALUE>
+                      <fx:VALUE>PT0.10000000S</fx:VALUE>
                     </fx:REPEATING-TIME-RANGE>
                   </fx:CYCLIC-TIMING>
                 </fx:TIMINGS>
@@ -389,27 +402,9 @@
           </fx:FRAME-TRIGGERING>
           <fx:FRAME-TRIGGERING ID="trig21">
             <fx:IDENTIFIER>
-              <fx:IDENTIFIER-VALUE>1462</fx:IDENTIFIER-VALUE>
+              <fx:IDENTIFIER-VALUE xsi:type="can:IDENTIFIER-VALUE-TYPE" EXTENDED-ADDRESSING="true">452984907</fx:IDENTIFIER-VALUE>
             </fx:IDENTIFIER>
             <fx:FRAME-REF ID-REF="frm21"/>
-            <fx:MANUFACTURER-EXTENSION>
-              <ni:NI-XNET-EXTENSION>
-                <ni:CAN-FD-MODE>0</ni:CAN-FD-MODE>
-                <fx:TIMINGS>
-                  <fx:CYCLIC-TIMING>
-                    <fx:REPEATING-TIME-RANGE>
-                      <fx:VALUE>PT1.000000S</fx:VALUE>
-                    </fx:REPEATING-TIME-RANGE>
-                  </fx:CYCLIC-TIMING>
-                </fx:TIMINGS>
-              </ni:NI-XNET-EXTENSION>
-            </fx:MANUFACTURER-EXTENSION>
-          </fx:FRAME-TRIGGERING>
-          <fx:FRAME-TRIGGERING ID="trig22">
-            <fx:IDENTIFIER>
-              <fx:IDENTIFIER-VALUE xsi:type="can:IDENTIFIER-VALUE-TYPE" EXTENDED-ADDRESSING="true">452984848</fx:IDENTIFIER-VALUE>
-            </fx:IDENTIFIER>
-            <fx:FRAME-REF ID-REF="frm22"/>
             <fx:MANUFACTURER-EXTENSION>
               <ni:NI-XNET-EXTENSION>
                 <ni:CAN-FD-MODE>0</ni:CAN-FD-MODE>
@@ -423,9 +418,20 @@
               </ni:NI-XNET-EXTENSION>
             </fx:MANUFACTURER-EXTENSION>
           </fx:FRAME-TRIGGERING>
+          <fx:FRAME-TRIGGERING ID="trig22">
+            <fx:IDENTIFIER>
+              <fx:IDENTIFIER-VALUE>1440</fx:IDENTIFIER-VALUE>
+            </fx:IDENTIFIER>
+            <fx:FRAME-REF ID-REF="frm22"/>
+            <fx:MANUFACTURER-EXTENSION>
+              <ni:NI-XNET-EXTENSION>
+                <ni:CAN-FD-MODE>0</ni:CAN-FD-MODE>
+              </ni:NI-XNET-EXTENSION>
+            </fx:MANUFACTURER-EXTENSION>
+          </fx:FRAME-TRIGGERING>
           <fx:FRAME-TRIGGERING ID="trig23">
             <fx:IDENTIFIER>
-              <fx:IDENTIFIER-VALUE>976</fx:IDENTIFIER-VALUE>
+              <fx:IDENTIFIER-VALUE>1432</fx:IDENTIFIER-VALUE>
             </fx:IDENTIFIER>
             <fx:FRAME-REF ID-REF="frm23"/>
             <fx:MANUFACTURER-EXTENSION>
@@ -434,7 +440,7 @@
                 <fx:TIMINGS>
                   <fx:CYCLIC-TIMING>
                     <fx:REPEATING-TIME-RANGE>
-                      <fx:VALUE>PT0.10000000S</fx:VALUE>
+                      <fx:VALUE>PT1.000000S</fx:VALUE>
                     </fx:REPEATING-TIME-RANGE>
                   </fx:CYCLIC-TIMING>
                 </fx:TIMINGS>
@@ -443,7 +449,7 @@
           </fx:FRAME-TRIGGERING>
           <fx:FRAME-TRIGGERING ID="trig24">
             <fx:IDENTIFIER>
-              <fx:IDENTIFIER-VALUE>974</fx:IDENTIFIER-VALUE>
+              <fx:IDENTIFIER-VALUE xsi:type="can:IDENTIFIER-VALUE-TYPE" EXTENDED-ADDRESSING="true">452984846</fx:IDENTIFIER-VALUE>
             </fx:IDENTIFIER>
             <fx:FRAME-REF ID-REF="frm24"/>
             <fx:MANUFACTURER-EXTENSION>
@@ -452,7 +458,7 @@
                 <fx:TIMINGS>
                   <fx:CYCLIC-TIMING>
                     <fx:REPEATING-TIME-RANGE>
-                      <fx:VALUE>PT0.10000000S</fx:VALUE>
+                      <fx:VALUE>PT0.20000000S</fx:VALUE>
                     </fx:REPEATING-TIME-RANGE>
                   </fx:CYCLIC-TIMING>
                 </fx:TIMINGS>
@@ -461,7 +467,7 @@
           </fx:FRAME-TRIGGERING>
           <fx:FRAME-TRIGGERING ID="trig25">
             <fx:IDENTIFIER>
-              <fx:IDENTIFIER-VALUE xsi:type="can:IDENTIFIER-VALUE-TYPE" EXTENDED-ADDRESSING="true">452984906</fx:IDENTIFIER-VALUE>
+              <fx:IDENTIFIER-VALUE>672</fx:IDENTIFIER-VALUE>
             </fx:IDENTIFIER>
             <fx:FRAME-REF ID-REF="frm25"/>
             <fx:MANUFACTURER-EXTENSION>
@@ -479,7 +485,7 @@
           </fx:FRAME-TRIGGERING>
           <fx:FRAME-TRIGGERING ID="trig26">
             <fx:IDENTIFIER>
-              <fx:IDENTIFIER-VALUE>977</fx:IDENTIFIER-VALUE>
+              <fx:IDENTIFIER-VALUE>960</fx:IDENTIFIER-VALUE>
             </fx:IDENTIFIER>
             <fx:FRAME-REF ID-REF="frm26"/>
             <fx:MANUFACTURER-EXTENSION>
@@ -497,7 +503,7 @@
           </fx:FRAME-TRIGGERING>
           <fx:FRAME-TRIGGERING ID="trig27">
             <fx:IDENTIFIER>
-              <fx:IDENTIFIER-VALUE>975</fx:IDENTIFIER-VALUE>
+              <fx:IDENTIFIER-VALUE>1716</fx:IDENTIFIER-VALUE>
             </fx:IDENTIFIER>
             <fx:FRAME-REF ID-REF="frm27"/>
             <fx:MANUFACTURER-EXTENSION>
@@ -506,7 +512,7 @@
                 <fx:TIMINGS>
                   <fx:CYCLIC-TIMING>
                     <fx:REPEATING-TIME-RANGE>
-                      <fx:VALUE>PT0.10000000S</fx:VALUE>
+                      <fx:VALUE>PT0.20000000S</fx:VALUE>
                     </fx:REPEATING-TIME-RANGE>
                   </fx:CYCLIC-TIMING>
                 </fx:TIMINGS>
@@ -515,7 +521,7 @@
           </fx:FRAME-TRIGGERING>
           <fx:FRAME-TRIGGERING ID="trig28">
             <fx:IDENTIFIER>
-              <fx:IDENTIFIER-VALUE xsi:type="can:IDENTIFIER-VALUE-TYPE" EXTENDED-ADDRESSING="true">452984907</fx:IDENTIFIER-VALUE>
+              <fx:IDENTIFIER-VALUE>1411</fx:IDENTIFIER-VALUE>
             </fx:IDENTIFIER>
             <fx:FRAME-REF ID-REF="frm28"/>
             <fx:MANUFACTURER-EXTENSION>
@@ -549,11 +555,106 @@
         <fx:BYTE-LENGTH>8</fx:BYTE-LENGTH>
       </fx:FRAME>
       <fx:FRAME ID="frm2">
-        <ho:SHORT-NAME>Test1</ho:SHORT-NAME>
+        <ho:SHORT-NAME>Test9</ho:SHORT-NAME>
         <ho:DESC></ho:DESC>
         <fx:BYTE-LENGTH>8</fx:BYTE-LENGTH>
       </fx:FRAME>
       <fx:FRAME ID="frm3">
+        <ho:SHORT-NAME>Test10</ho:SHORT-NAME>
+        <ho:DESC></ho:DESC>
+        <fx:BYTE-LENGTH>8</fx:BYTE-LENGTH>
+      </fx:FRAME>
+      <fx:FRAME ID="frm4">
+        <ho:SHORT-NAME>Test11</ho:SHORT-NAME>
+        <ho:DESC></ho:DESC>
+        <fx:BYTE-LENGTH>8</fx:BYTE-LENGTH>
+      </fx:FRAME>
+      <fx:FRAME ID="frm5">
+        <ho:SHORT-NAME>Test12</ho:SHORT-NAME>
+        <ho:DESC></ho:DESC>
+        <fx:BYTE-LENGTH>8</fx:BYTE-LENGTH>
+      </fx:FRAME>
+      <fx:FRAME ID="frm6">
+        <ho:SHORT-NAME>Test13</ho:SHORT-NAME>
+        <ho:DESC></ho:DESC>
+        <fx:BYTE-LENGTH>8</fx:BYTE-LENGTH>
+      </fx:FRAME>
+      <fx:FRAME ID="frm7">
+        <ho:SHORT-NAME>Test14</ho:SHORT-NAME>
+        <ho:DESC></ho:DESC>
+        <fx:BYTE-LENGTH>8</fx:BYTE-LENGTH>
+      </fx:FRAME>
+      <fx:FRAME ID="frm8">
+        <ho:SHORT-NAME>Test15</ho:SHORT-NAME>
+        <ho:DESC></ho:DESC>
+        <fx:BYTE-LENGTH>8</fx:BYTE-LENGTH>
+      </fx:FRAME>
+      <fx:FRAME ID="frm9">
+        <ho:SHORT-NAME>Test16</ho:SHORT-NAME>
+        <ho:DESC></ho:DESC>
+        <fx:BYTE-LENGTH>8</fx:BYTE-LENGTH>
+      </fx:FRAME>
+      <fx:FRAME ID="frm10">
+        <ho:SHORT-NAME>Test17</ho:SHORT-NAME>
+        <ho:DESC></ho:DESC>
+        <fx:BYTE-LENGTH>8</fx:BYTE-LENGTH>
+      </fx:FRAME>
+      <fx:FRAME ID="frm11">
+        <ho:SHORT-NAME>Test18</ho:SHORT-NAME>
+        <ho:DESC></ho:DESC>
+        <fx:BYTE-LENGTH>8</fx:BYTE-LENGTH>
+      </fx:FRAME>
+      <fx:FRAME ID="frm12">
+        <ho:SHORT-NAME>Test1</ho:SHORT-NAME>
+        <ho:DESC></ho:DESC>
+        <fx:BYTE-LENGTH>8</fx:BYTE-LENGTH>
+      </fx:FRAME>
+      <fx:FRAME ID="frm13">
+        <ho:SHORT-NAME>Test19</ho:SHORT-NAME>
+        <ho:DESC></ho:DESC>
+        <fx:BYTE-LENGTH>8</fx:BYTE-LENGTH>
+      </fx:FRAME>
+      <fx:FRAME ID="frm14">
+        <ho:SHORT-NAME>Test20</ho:SHORT-NAME>
+        <ho:DESC></ho:DESC>
+        <fx:BYTE-LENGTH>8</fx:BYTE-LENGTH>
+      </fx:FRAME>
+      <fx:FRAME ID="frm15">
+        <ho:SHORT-NAME>Test21</ho:SHORT-NAME>
+        <ho:DESC></ho:DESC>
+        <fx:BYTE-LENGTH>8</fx:BYTE-LENGTH>
+      </fx:FRAME>
+      <fx:FRAME ID="frm16">
+        <ho:SHORT-NAME>Test22</ho:SHORT-NAME>
+        <ho:DESC></ho:DESC>
+        <fx:BYTE-LENGTH>8</fx:BYTE-LENGTH>
+      </fx:FRAME>
+      <fx:FRAME ID="frm17">
+        <ho:SHORT-NAME>Test23</ho:SHORT-NAME>
+        <ho:DESC></ho:DESC>
+        <fx:BYTE-LENGTH>8</fx:BYTE-LENGTH>
+      </fx:FRAME>
+      <fx:FRAME ID="frm18">
+        <ho:SHORT-NAME>Test24</ho:SHORT-NAME>
+        <ho:DESC></ho:DESC>
+        <fx:BYTE-LENGTH>8</fx:BYTE-LENGTH>
+      </fx:FRAME>
+      <fx:FRAME ID="frm19">
+        <ho:SHORT-NAME>Test25</ho:SHORT-NAME>
+        <ho:DESC></ho:DESC>
+        <fx:BYTE-LENGTH>8</fx:BYTE-LENGTH>
+      </fx:FRAME>
+      <fx:FRAME ID="frm20">
+        <ho:SHORT-NAME>Test26</ho:SHORT-NAME>
+        <ho:DESC></ho:DESC>
+        <fx:BYTE-LENGTH>8</fx:BYTE-LENGTH>
+      </fx:FRAME>
+      <fx:FRAME ID="frm21">
+        <ho:SHORT-NAME>Test27</ho:SHORT-NAME>
+        <ho:DESC></ho:DESC>
+        <fx:BYTE-LENGTH>8</fx:BYTE-LENGTH>
+      </fx:FRAME>
+      <fx:FRAME ID="frm22">
         <ho:SHORT-NAME>Test2</ho:SHORT-NAME>
         <ho:DESC></ho:DESC>
         <fx:BYTE-LENGTH>8</fx:BYTE-LENGTH>
@@ -565,128 +666,33 @@
           </fx:PDU-INSTANCE>
         </fx:PDU-INSTANCES>
       </fx:FRAME>
-      <fx:FRAME ID="frm4">
+      <fx:FRAME ID="frm23">
         <ho:SHORT-NAME>Test3</ho:SHORT-NAME>
         <ho:DESC></ho:DESC>
         <fx:BYTE-LENGTH>8</fx:BYTE-LENGTH>
       </fx:FRAME>
-      <fx:FRAME ID="frm5">
+      <fx:FRAME ID="frm24">
         <ho:SHORT-NAME>Test4</ho:SHORT-NAME>
         <ho:DESC></ho:DESC>
         <fx:BYTE-LENGTH>8</fx:BYTE-LENGTH>
       </fx:FRAME>
-      <fx:FRAME ID="frm6">
+      <fx:FRAME ID="frm25">
         <ho:SHORT-NAME>Test5</ho:SHORT-NAME>
         <ho:DESC></ho:DESC>
         <fx:BYTE-LENGTH>8</fx:BYTE-LENGTH>
       </fx:FRAME>
-      <fx:FRAME ID="frm7">
+      <fx:FRAME ID="frm26">
         <ho:SHORT-NAME>Test6</ho:SHORT-NAME>
         <ho:DESC></ho:DESC>
         <fx:BYTE-LENGTH>8</fx:BYTE-LENGTH>
       </fx:FRAME>
-      <fx:FRAME ID="frm8">
+      <fx:FRAME ID="frm27">
         <ho:SHORT-NAME>Test7</ho:SHORT-NAME>
         <ho:DESC></ho:DESC>
         <fx:BYTE-LENGTH>8</fx:BYTE-LENGTH>
       </fx:FRAME>
-      <fx:FRAME ID="frm9">
-        <ho:SHORT-NAME>Test8</ho:SHORT-NAME>
-        <ho:DESC></ho:DESC>
-        <fx:BYTE-LENGTH>8</fx:BYTE-LENGTH>
-      </fx:FRAME>
-      <fx:FRAME ID="frm10">
-        <ho:SHORT-NAME>Test9</ho:SHORT-NAME>
-        <ho:DESC></ho:DESC>
-        <fx:BYTE-LENGTH>8</fx:BYTE-LENGTH>
-      </fx:FRAME>
-      <fx:FRAME ID="frm11">
-        <ho:SHORT-NAME>Test10</ho:SHORT-NAME>
-        <ho:DESC></ho:DESC>
-        <fx:BYTE-LENGTH>8</fx:BYTE-LENGTH>
-      </fx:FRAME>
-      <fx:FRAME ID="frm12">
-        <ho:SHORT-NAME>Test11</ho:SHORT-NAME>
-        <ho:DESC></ho:DESC>
-        <fx:BYTE-LENGTH>8</fx:BYTE-LENGTH>
-      </fx:FRAME>
-      <fx:FRAME ID="frm13">
-        <ho:SHORT-NAME>Test12</ho:SHORT-NAME>
-        <ho:DESC></ho:DESC>
-        <fx:BYTE-LENGTH>8</fx:BYTE-LENGTH>
-      </fx:FRAME>
-      <fx:FRAME ID="frm14">
-        <ho:SHORT-NAME>Test13</ho:SHORT-NAME>
-        <ho:DESC></ho:DESC>
-        <fx:BYTE-LENGTH>8</fx:BYTE-LENGTH>
-      </fx:FRAME>
-      <fx:FRAME ID="frm15">
-        <ho:SHORT-NAME>Test14</ho:SHORT-NAME>
-        <ho:DESC></ho:DESC>
-        <fx:BYTE-LENGTH>8</fx:BYTE-LENGTH>
-      </fx:FRAME>
-      <fx:FRAME ID="frm16">
-        <ho:SHORT-NAME>Test15</ho:SHORT-NAME>
-        <ho:DESC></ho:DESC>
-        <fx:BYTE-LENGTH>8</fx:BYTE-LENGTH>
-      </fx:FRAME>
-      <fx:FRAME ID="frm17">
-        <ho:SHORT-NAME>Test16</ho:SHORT-NAME>
-        <ho:DESC></ho:DESC>
-        <fx:BYTE-LENGTH>8</fx:BYTE-LENGTH>
-      </fx:FRAME>
-      <fx:FRAME ID="frm18">
-        <ho:SHORT-NAME>Test17</ho:SHORT-NAME>
-        <ho:DESC></ho:DESC>
-        <fx:BYTE-LENGTH>8</fx:BYTE-LENGTH>
-      </fx:FRAME>
-      <fx:FRAME ID="frm19">
-        <ho:SHORT-NAME>Test18</ho:SHORT-NAME>
-        <ho:DESC></ho:DESC>
-        <fx:BYTE-LENGTH>8</fx:BYTE-LENGTH>
-      </fx:FRAME>
-      <fx:FRAME ID="frm20">
-        <ho:SHORT-NAME>Test19</ho:SHORT-NAME>
-        <ho:DESC></ho:DESC>
-        <fx:BYTE-LENGTH>8</fx:BYTE-LENGTH>
-      </fx:FRAME>
-      <fx:FRAME ID="frm21">
-        <ho:SHORT-NAME>Test20</ho:SHORT-NAME>
-        <ho:DESC></ho:DESC>
-        <fx:BYTE-LENGTH>8</fx:BYTE-LENGTH>
-      </fx:FRAME>
-      <fx:FRAME ID="frm22">
-        <ho:SHORT-NAME>Test21</ho:SHORT-NAME>
-        <ho:DESC></ho:DESC>
-        <fx:BYTE-LENGTH>8</fx:BYTE-LENGTH>
-      </fx:FRAME>
-      <fx:FRAME ID="frm23">
-        <ho:SHORT-NAME>Test22</ho:SHORT-NAME>
-        <ho:DESC></ho:DESC>
-        <fx:BYTE-LENGTH>8</fx:BYTE-LENGTH>
-      </fx:FRAME>
-      <fx:FRAME ID="frm24">
-        <ho:SHORT-NAME>Test23</ho:SHORT-NAME>
-        <ho:DESC></ho:DESC>
-        <fx:BYTE-LENGTH>8</fx:BYTE-LENGTH>
-      </fx:FRAME>
-      <fx:FRAME ID="frm25">
-        <ho:SHORT-NAME>Test24</ho:SHORT-NAME>
-        <ho:DESC></ho:DESC>
-        <fx:BYTE-LENGTH>8</fx:BYTE-LENGTH>
-      </fx:FRAME>
-      <fx:FRAME ID="frm26">
-        <ho:SHORT-NAME>Test25</ho:SHORT-NAME>
-        <ho:DESC></ho:DESC>
-        <fx:BYTE-LENGTH>8</fx:BYTE-LENGTH>
-      </fx:FRAME>
-      <fx:FRAME ID="frm27">
-        <ho:SHORT-NAME>Test26</ho:SHORT-NAME>
-        <ho:DESC></ho:DESC>
-        <fx:BYTE-LENGTH>8</fx:BYTE-LENGTH>
-      </fx:FRAME>
       <fx:FRAME ID="frm28">
-        <ho:SHORT-NAME>Test27</ho:SHORT-NAME>
+        <ho:SHORT-NAME>Test8</ho:SHORT-NAME>
         <ho:DESC></ho:DESC>
         <fx:BYTE-LENGTH>8</fx:BYTE-LENGTH>
       </fx:FRAME>
