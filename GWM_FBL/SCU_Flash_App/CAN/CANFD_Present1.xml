@@ -27,6 +27,18 @@
     <fx:CHANNELS>
       <fx:CHANNEL ID="channel1">
         <ho:SHORT-NAME>Channel1</ho:SHORT-NAME>
+        <fx:PDU-TRIGGERINGS>
+          <fx:PDU-TRIGGERING ID="pdutrg1">
+            <fx:TIMINGS>
+              <fx:EVENT-CONTROLLED-TIMING>
+                <fx:DEBOUNCE-TIME-RANGE>
+                  <fx:VALUE>PT0.01000000S</fx:VALUE>
+                </fx:DEBOUNCE-TIME-RANGE>
+              </fx:EVENT-CONTROLLED-TIMING>
+            </fx:TIMINGS>
+            <fx:PDU-REF ID-REF="pdu1"/>
+          </fx:PDU-TRIGGERING>
+        </fx:PDU-TRIGGERINGS>
         <fx:FRAME-TRIGGERINGS>
           <fx:FRAME-TRIGGERING ID="trig1">
             <fx:IDENTIFIER>
@@ -64,9 +76,28 @@
               </ni:NI-XNET-EXTENSION>
             </fx:MANUFACTURER-EXTENSION>
           </fx:FRAME-TRIGGERING>
+          <fx:FRAME-TRIGGERING ID="trig3">
+            <fx:IDENTIFIER>
+              <fx:IDENTIFIER-VALUE>1867</fx:IDENTIFIER-VALUE>
+            </fx:IDENTIFIER>
+            <fx:FRAME-REF ID-REF="frm3"/>
+            <fx:MANUFACTURER-EXTENSION>
+              <ni:NI-XNET-EXTENSION>
+                <ni:CAN-FD-MODE>2</ni:CAN-FD-MODE>
+              </ni:NI-XNET-EXTENSION>
+            </fx:MANUFACTURER-EXTENSION>
+          </fx:FRAME-TRIGGERING>
         </fx:FRAME-TRIGGERINGS>
       </fx:CHANNEL>
     </fx:CHANNELS>
+    <fx:PDUS>
+      <fx:PDU ID="pdu1">
+        <ho:SHORT-NAME>Recd_pdu</ho:SHORT-NAME>
+        <ho:DESC></ho:DESC>
+        <fx:BYTE-LENGTH>8</fx:BYTE-LENGTH>
+        <fx:PDU-TYPE>APPLICATION</fx:PDU-TYPE>
+      </fx:PDU>
+    </fx:PDUS>
     <fx:FRAMES>
       <fx:FRAME ID="frm1">
         <ho:SHORT-NAME>KeepSessin</ho:SHORT-NAME>
@@ -77,6 +108,18 @@
         <ho:SHORT-NAME>KeepFDSession</ho:SHORT-NAME>
         <ho:DESC></ho:DESC>
         <fx:BYTE-LENGTH>8</fx:BYTE-LENGTH>
+      </fx:FRAME>
+      <fx:FRAME ID="frm3">
+        <ho:SHORT-NAME>Recd</ho:SHORT-NAME>
+        <ho:DESC></ho:DESC>
+        <fx:BYTE-LENGTH>8</fx:BYTE-LENGTH>
+        <fx:PDU-INSTANCES>
+          <fx:PDU-INSTANCE ID="pduinst1">
+            <fx:PDU-REF ID-REF="pdu1"/>
+            <fx:BIT-POSITION>0</fx:BIT-POSITION>
+            <fx:IS-HIGH-LOW-BYTE-ORDER>false</fx:IS-HIGH-LOW-BYTE-ORDER>
+          </fx:PDU-INSTANCE>
+        </fx:PDU-INSTANCES>
       </fx:FRAME>
     </fx:FRAMES>
   </fx:ELEMENTS>
