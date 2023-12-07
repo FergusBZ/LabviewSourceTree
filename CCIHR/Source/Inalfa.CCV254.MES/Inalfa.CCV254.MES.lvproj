@@ -134,14 +134,14 @@
 			</Item>
 		</Item>
 		<Item Name="程序生成规范" Type="Build">
-			<Item Name="CCV254.MES-V231118" Type="EXE">
+			<Item Name="CCV254.MES-V231207" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{7876F3C6-12D1-48DD-B412-A52517482B60}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{9DE887BA-8CBA-4F81-BD17-41BF0AD04F5E}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{59F81740-3A5C-47FE-A0A6-4B37FEFCC998}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">CCV254.MES-V231118</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">CCV254.MES-V231207</Property>
 				<Property Name="Bld_defaultLanguage" Type="Str">ChineseS</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
@@ -150,10 +150,10 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{2CE0F648-12E2-4AE2-ABD3-AA0FD3ED43A0}</Property>
-				<Property Name="Bld_version.build" Type="Int">51</Property>
+				<Property Name="Bld_version.build" Type="Int">53</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">CCV254.MES-V231118.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../长春V254MES/CCV254.MES-V231118.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../长春V254MES/CCV254.MES-V231207.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
@@ -161,45 +161,45 @@
 				<Property Name="Destination[1].path" Type="Path">../长春V254MES/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Exe_actXinfo_enumCLSID[0]" Type="Str">{2FB4A8ED-2B7E-420C-A02D-86411862040E}</Property>
-				<Property Name="Exe_actXinfo_enumCLSID[1]" Type="Str">{787190BA-EC58-4453-8488-2E07039ACC23}</Property>
-				<Property Name="Exe_actXinfo_enumCLSID[10]" Type="Str">{3EA048D3-E2AE-4A18-9087-4B9326D31C43}</Property>
-				<Property Name="Exe_actXinfo_enumCLSID[11]" Type="Str">{B6957619-A0DF-4B17-8C9F-42222B830612}</Property>
-				<Property Name="Exe_actXinfo_enumCLSID[12]" Type="Str">{5EF363F0-7FA9-4D7A-B1C7-0CBB8D814837}</Property>
-				<Property Name="Exe_actXinfo_enumCLSID[13]" Type="Str">{EE599D1C-20CF-471C-A7C3-B2B3C768C191}</Property>
-				<Property Name="Exe_actXinfo_enumCLSID[14]" Type="Str">{96FEFC7D-0BC8-46F5-97FF-404B478C9A74}</Property>
-				<Property Name="Exe_actXinfo_enumCLSID[15]" Type="Str">{A70AD7ED-DB85-4E73-ADEC-6F8A68C35FC5}</Property>
-				<Property Name="Exe_actXinfo_enumCLSID[16]" Type="Str">{FB0CD827-41E6-4E51-959B-3C6EDF5B37F1}</Property>
-				<Property Name="Exe_actXinfo_enumCLSID[2]" Type="Str">{845C1BB5-4C7C-4137-BE47-C5E97A0BC0F8}</Property>
-				<Property Name="Exe_actXinfo_enumCLSID[3]" Type="Str">{CC989FCE-D564-4A89-8147-666E7D1135C5}</Property>
-				<Property Name="Exe_actXinfo_enumCLSID[4]" Type="Str">{36ADAE93-1416-4A4D-A11C-FF2A86D88345}</Property>
-				<Property Name="Exe_actXinfo_enumCLSID[5]" Type="Str">{D4D68A50-C19F-4D85-9368-658FFE80A4DC}</Property>
-				<Property Name="Exe_actXinfo_enumCLSID[6]" Type="Str">{4513BC95-F489-4CD5-B6A0-08FC5D372623}</Property>
-				<Property Name="Exe_actXinfo_enumCLSID[7]" Type="Str">{DC058B3C-71C6-4FCE-90D9-5C1285D9AA9D}</Property>
-				<Property Name="Exe_actXinfo_enumCLSID[8]" Type="Str">{2CF5D592-C7C7-4F94-9710-9A98C38D8C55}</Property>
-				<Property Name="Exe_actXinfo_enumCLSID[9]" Type="Str">{8D8B45F3-0836-42AB-AF2B-B060FB3B2DF6}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[0]" Type="Str">{C742FFE6-5B4C-42B1-B803-8DB4ED213A4B}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[1]" Type="Str">{B61829A5-3414-4AEE-873A-B81E9E17713E}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[10]" Type="Str">{903852AE-0E83-42A0-B65E-17CBC1A1B68D}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[11]" Type="Str">{44DDBA16-DBC1-43AD-8E3B-41D4E7FD655E}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[12]" Type="Str">{04862901-7E44-472A-A3CD-A9E88D75DAEB}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[13]" Type="Str">{FE9C2FDD-AAD3-4AB8-AEF0-8BFB28E26B16}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[14]" Type="Str">{6E0FC197-5EC5-4408-AC07-1A6D7474ED54}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[15]" Type="Str">{C3092155-FDF5-4C52-9C03-3A2A52D63135}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[16]" Type="Str">{BA79147A-2AB7-4128-88C0-B13C52EF5515}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[2]" Type="Str">{9D46A3B2-2CB9-4567-968D-50074B2864D6}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[3]" Type="Str">{0B62BCB7-350E-4A21-8C35-48E527CBB9CA}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[4]" Type="Str">{1ADA13C9-8A48-4834-8719-EFCF5C55E70E}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[5]" Type="Str">{C9C4BDBC-F4DF-4586-BC42-74AB7F2BA91D}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[6]" Type="Str">{284C7194-B292-4B64-887C-5E05B82AC66D}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[7]" Type="Str">{468AB1B7-3A5F-409A-A08D-4C3F8D1AA867}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[8]" Type="Str">{B772A8D9-F4A4-41DF-8A14-143308039DE1}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[9]" Type="Str">{9F1B9E2B-F7EE-491C-A065-0DF7BB8A6BA2}</Property>
 				<Property Name="Exe_actXinfo_enumCLSIDsCount" Type="Int">17</Property>
 				<Property Name="Exe_actXinfo_majorVersion" Type="Int">5</Property>
 				<Property Name="Exe_actXinfo_minorVersion" Type="Int">5</Property>
-				<Property Name="Exe_actXinfo_objCLSID[0]" Type="Str">{9F1AB427-9C30-424C-B17E-E88EE5A90214}</Property>
-				<Property Name="Exe_actXinfo_objCLSID[1]" Type="Str">{A16307DD-932B-4653-9F10-C7062BA05A4F}</Property>
-				<Property Name="Exe_actXinfo_objCLSID[10]" Type="Str">{812696F6-38FC-4A18-9B9B-0B19631DA20A}</Property>
-				<Property Name="Exe_actXinfo_objCLSID[11]" Type="Str">{CEA56196-D94B-4B76-92E2-9A121FAC0BFC}</Property>
-				<Property Name="Exe_actXinfo_objCLSID[12]" Type="Str">{93F5F3D1-A836-4014-80C1-D19551ECCC09}</Property>
-				<Property Name="Exe_actXinfo_objCLSID[13]" Type="Str">{2D95D1E6-7E31-4CD9-84F8-8268F0CB14AC}</Property>
-				<Property Name="Exe_actXinfo_objCLSID[2]" Type="Str">{FA02952F-D12D-4C34-8527-CAA29AF089AE}</Property>
-				<Property Name="Exe_actXinfo_objCLSID[3]" Type="Str">{4F8C064F-F7B3-435D-963D-43EE727D5D68}</Property>
-				<Property Name="Exe_actXinfo_objCLSID[4]" Type="Str">{711CAE4E-29CD-4AB5-8D2D-570B09F118C5}</Property>
-				<Property Name="Exe_actXinfo_objCLSID[5]" Type="Str">{61E6215D-88E9-4944-859B-30BA200806A2}</Property>
-				<Property Name="Exe_actXinfo_objCLSID[6]" Type="Str">{A2D0FF0C-2D4A-4ACC-AD52-13E54BC5E029}</Property>
-				<Property Name="Exe_actXinfo_objCLSID[7]" Type="Str">{2BD659BD-2513-4317-A006-865C0ACC54CC}</Property>
-				<Property Name="Exe_actXinfo_objCLSID[8]" Type="Str">{EC646CFF-D7F9-4A7A-A9B1-5D9D1BBD9EA1}</Property>
-				<Property Name="Exe_actXinfo_objCLSID[9]" Type="Str">{A61B3D55-EC1D-43F0-8065-0E6B571B6852}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[0]" Type="Str">{FF455574-852E-404B-B888-A9E7F4946905}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[1]" Type="Str">{B9C8781A-DAD0-4158-8BAD-4DCAAD96EA72}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[10]" Type="Str">{F1E02A9E-586B-41B2-96FB-9042979ADCAF}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[11]" Type="Str">{884193BE-F477-49C4-8C92-663365E1B293}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[12]" Type="Str">{B41AD254-92D8-4B37-BF8E-149167ECAF15}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[13]" Type="Str">{DA7488B0-571C-4DFE-9B94-DD3545C4BC4F}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[2]" Type="Str">{AF67499E-D181-4E65-A1B5-A34B009D5499}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[3]" Type="Str">{C09EBCB5-5CA8-44A6-8BD1-0956B170CF4D}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[4]" Type="Str">{9F94867F-7450-4C4B-B9DB-2A39EFA00294}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[5]" Type="Str">{32FEA6E1-3165-4D84-93AB-D039B7E646BD}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[6]" Type="Str">{10113A16-2CB9-4240-8BF1-E4B2BE7D830D}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[7]" Type="Str">{DB7097F3-DD92-4982-97BD-CC497877C273}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[8]" Type="Str">{130C05F8-79AE-4B6C-A1AA-7B00C7C7FAD1}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[9]" Type="Str">{33984868-816A-4B1D-AEB9-1F7C08FEBA5C}</Property>
 				<Property Name="Exe_actXinfo_objCLSIDsCount" Type="Int">14</Property>
 				<Property Name="Exe_actXinfo_progIDPrefix" Type="Str">CCV254MESV231118</Property>
 				<Property Name="Exe_actXServerName" Type="Str">CCV254MESV231118</Property>
 				<Property Name="Exe_actXServerNameGUID" Type="Str">{9FF0BFF5-24C2-4995-A85A-387AFB9BC0DC}</Property>
-				<Property Name="Source[0].itemID" Type="Str">{71205560-1F48-4867-8903-FB2A21E902C0}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{08519840-E251-4FDD-B992-756E25913B43}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[1].Container.depDestIndex" Type="Int">0</Property>
@@ -243,10 +243,10 @@
 				<Property Name="Source[7].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">8</Property>
 				<Property Name="TgtF_companyName" Type="Str">上工富怡</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">CCV254.MES-V231118</Property>
-				<Property Name="TgtF_internalName" Type="Str">CCV254.MES-V231118</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">CCV254.MES-V231207</Property>
+				<Property Name="TgtF_internalName" Type="Str">CCV254.MES-V231207</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">版权 2022 </Property>
-				<Property Name="TgtF_productName" Type="Str">CCV254.MES-V231118</Property>
+				<Property Name="TgtF_productName" Type="Str">CCV254.MES-V231207</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{221AD651-2DA5-4FB9-850C-B56BBC621774}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">CCV254.MES-V231118.exe</Property>
 			</Item>
